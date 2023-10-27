@@ -111,11 +111,11 @@ if ( !class_exists( 'ReduxFramework_wbc_importer' ) ) {
 
                     echo '<div class="theme-actions" style="top:82% !important">';
                     if ( false == $imported ) {
-                        echo '<div class="wbc-importer-buttons"><span class="spinner">'.esc_html__( 'Please Wait...', 'framework' ).'</span><span class="button-primary importer-button import-demo-data">' . __( 'Import Demo', 'framework' ) . '</span></div>';
+                        echo '<div class="wbc-importer-buttons"><span class="spinner">'.esc_html__( 'Please Wait...', 'framework' ).'</span><span class="button-primary importer-button import-demo-datas">' . __( 'Import Demo', 'framework' ) . '</span></div>';
                     }else {
                         echo '<div class="wbc-importer-buttons button-secondary importer-button">'.esc_html__( 'Imported', 'framework' ).'</div>';
                         echo '<span class="spinner">'.esc_html__( 'Please Wait...', 'framework' ).'</span>';
-                        echo '<div id="wbc-importer-reimport" class="wbc-importer-buttons button-primary import-demo-data importer-button">'.esc_html__( 'Re-Import', 'framework' ).'</div>';
+                        echo '<div id="wbc-importer-reimports" class="wbc-importer-buttons button-primary import-demo-datas importer-button">'.esc_html__( 'Re-Import', 'framework' ).'</div>';
                     }
                     echo '</div></div>';
                     echo '</div>';

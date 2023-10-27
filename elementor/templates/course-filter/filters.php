@@ -114,11 +114,11 @@
 
 
 	<input type="hidden" name="course_per_page" value="<?php echo esc_attr($settings['per_page']) ?>" />
-	<input type="hidden" name="course_column_lg" value="<?php echo esc_attr($settings['grid_items_lg']) ?>" />
-	<input type="hidden" name="course_column_md" value="<?php echo esc_attr($settings['grid_items_md']) ?>" />
-	<input type="hidden" name="course_column_sm" value="<?php echo esc_attr($settings['grid_items_sm']) ?>" />
-	<input type="hidden" name="course_column_xs" value="<?php echo esc_attr($settings['grid_items_xs']) ?>" />
-	<input type="hidden" name="course_column_xx" value="<?php echo esc_attr($settings['grid_items_xx']) ?>" />
+	<input type="hidden" name="display_course_column_lg" value="<?php echo esc_attr($settings['grid_items_lg']) ?>" />
+	<input type="hidden" name="display_course_column_md" value="<?php echo esc_attr($settings['grid_items_md']) ?>" />
+	<input type="hidden" name="display_course_column_sm" value="<?php echo esc_attr($settings['grid_items_sm']) ?>" />
+	<input type="hidden" name="display_course_column_xs" value="<?php echo esc_attr($settings['grid_items_xs']) ?>" />
+	<input type="hidden" name="display_course_column_xx" value="<?php echo esc_attr($settings['grid_items_xx']) ?>" />
 	<input type="hidden" name="only_course_items" value="1" />
 
 
@@ -141,9 +141,9 @@
 	<?php do_action('tutor_course_filter/after'); ?>
 </form>
 </div>
-<?php if($settings['layout'] != 'filter-layout-top' && is_active_sidebar('archive_course_sidebar')){ ?>
+<?php if($settings['layout'] != 'filter-layout-top' && is_active_sidebar('course_archive_sidebar')){ ?>
 	<div class="archive-course-sidebar">
-		<?php dynamic_sidebar('archive_course_sidebar'); ?>
+		<?php dynamic_sidebar('course_archive_sidebar'); ?>
 	</div>
 <?php } ?>
 

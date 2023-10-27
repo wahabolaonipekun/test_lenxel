@@ -25,9 +25,9 @@ function lenxelthemesupport_get_select_term( $taxonomy ) {
 
   
 function lenxel_theme_support_get_theme_option($key, $default = ''){
-  $lenxel_theme_options = get_option( 'lenxel_theme_options' );
-  if(isset($lenxel_theme_options[$key]) && $lenxel_theme_options[$key]){
-     return $lenxel_theme_options[$key];
+  $lenxel_theme_settings = get_option( 'lenxel_theme_settings' );
+  if(isset($lenxel_theme_settings[$key]) && $lenxel_theme_settings[$key]){
+     return $lenxel_theme_settings[$key];
   }else{
      return $default;
   }

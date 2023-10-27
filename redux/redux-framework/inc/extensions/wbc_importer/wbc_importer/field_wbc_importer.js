@@ -8,7 +8,7 @@
     });
     $.redux.wbc_importer = function() {
 
-        $('.wrap-importer.theme.not-imported, #wbc-importer-reimport').unbind('click').on('click', function(e) {
+        $('.wrap-importer.theme.not-imported, #wbc-importer-reimports').unbind('click').on('click', function(e) {
             e.preventDefault();
 
             var parent = jQuery(this);
@@ -17,7 +17,7 @@
 
             var message = 'Import Demo Content ?';
 
-            if (e.target.id == 'wbc-importer-reimport') {
+            if (e.target.id == 'wbc-importer-reimports') {
                 reimport = true;
                 message  = 'Re-Import Content?';
 
@@ -46,7 +46,7 @@
 
             var imported_demo = false;
 
-            data.action = "redux_wbc_importer";
+            data.action = "redux_wbc_importers";
             data.demo_import_id = parent.attr("data-demo-id");
             data.nonce = parent.attr("data-nonce");
             data.type = 'import-demo-content';
@@ -55,27 +55,28 @@
 
             jQuery.post(ajaxurl, data)
                 .done(function(response) {
+                    console.log(response);
                     parent.find('.wbc_image').css('opacity', '1');
                     parent.find('.spinner').css('display', 'none');
 
                     if (response.length > 0 && response.match(/Have fun!/gi)) {
 
                         if (reimport == false) {
-                            parent.addClass('rendered').find('.wbc-importer-buttons .importer-button').removeClass('import-demo-data');
+                            parent.addClass('rendered').find('.wbc-importer-buttons .importer-button').removeClass('import-demo-datas');
 
-                            var reImportButton = '<div id="wbc-importer-reimport" class="wbc-importer-buttons button-primary import-demo-data importer-button">Re-Import</div>';
+                            var reImportButton = '<div id="wbc-importer-reimports" class="wbc-importer-buttons button-primary import-demo-datas importer-button">Re-Import</div>';
                             parent.find('.theme-actions .wbc-importer-buttons').append(reImportButton);
                         }
-                        parent.find('.importer-button:not(#wbc-importer-reimport)').removeClass('button-primary').addClass('button').text('Imported').show();
+                        parent.find('.importer-button:not(#wbc-importer-reimports)').removeClass('button-primary').addClass('button').text('Imported').show();
                         parent.find('.importer-button').attr('style', '');
                         parent.addClass('imported active').removeClass('not-imported');
                         imported_demo = true;
                         //wbc_show_progress(data);
                         location.reload(true);
                     } else {
-                        parent.find('.import-demo-data').show();
+                        parent.find('.import-demo-datas').show();
                         if (reimport == true) {
-                            parent.find('.importer-button:not(#wbc-importer-reimport)').removeClass('button-primary').addClass('button').text('Imported').show();
+                            parent.find('.importer-button:not(#wbc-importer-reimports)').removeClass('button-primary').addClass('button').text('Imported').show();
                             parent.find('.importer-button').attr('style', '');
                             parent.addClass('imported active').removeClass('not-imported');
                         }

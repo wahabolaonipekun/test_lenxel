@@ -1,597 +1,875 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# Copyright (C) 2023 Dev Teams on Demand
+# This file is distributed under the same license as the Lenxel Theme Support plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-22 16:13+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Project-Id-Version: Lenxel Theme Support 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lenxel-theme-support\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-10-22T12:07:18+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: lenxel-theme-support\n"
 
-#: posttypes/team.php:5 posttypes/team.php:6
-msgid "Team"
+#. Plugin Name of the plugin
+msgid "Lenxel Theme Support"
 msgstr ""
 
-#: posttypes/team.php:7 posttypes/team.php:8
-msgid "Add New Team"
+#. Plugin URI of the plugin
+msgid "https://lenxel.ogunlabs.com"
 msgstr ""
 
-#: posttypes/team.php:9
-msgid "Edit Team"
+#. Description of the plugin
+msgid "Open Setting, Post Type, Shortcode ... for theme"
 msgstr ""
 
-#: posttypes/team.php:10
-msgid "New Team"
+#. Author of the plugin
+msgid "Dev Teams on Demand"
 msgstr ""
 
-#: posttypes/team.php:11
-msgid "View Team"
+#. Author URI of the plugin
+msgid "https://ogunlabs.com/"
 msgstr ""
 
-#: posttypes/team.php:12
-msgid "Search Teams"
+#: add-ons/comment/backend.php:15
+msgid "Review"
 msgstr ""
 
-#: posttypes/team.php:13
-msgid "No Teams found"
+#: add-ons/comment/backend.php:60
+msgid "Category review was deleted"
 msgstr ""
 
-#: posttypes/team.php:14
-msgid "No Teams found in Trash"
+#: add-ons/comment/backend.php:74
+msgid "Delete"
 msgstr ""
 
-#: posttypes/team.php:15
-msgid "Parent Team:"
+#: add-ons/comment/frontend.php:66
+msgid "Average Ratting"
 msgstr ""
 
-#: posttypes/team.php:16
-msgid "Teams"
+#: add-ons/form-ajax/ajax-forget-pwd.php:33
+msgid "Error: Enter a username or e-mail address."
 msgstr ""
 
-#: posttypes/team.php:71
-msgid "Socials"
+#: add-ons/form-ajax/ajax-forget-pwd.php:39
+msgid "Error: There is no user registered with that email address."
 msgstr ""
 
-#: posttypes/team.php:88 posttypes/team.php:149 posttypes/team.php:210
-#: posttypes/portfolio.php:207
-msgid "Remove"
+#: add-ons/form-ajax/ajax-forget-pwd.php:48
+msgid "Error: Invalid username or email."
 msgstr ""
 
-#: posttypes/team.php:96
-msgid "Add Social"
+#: add-ons/form-ajax/ajax-forget-pwd.php:60
+msgid "Hi "
 msgstr ""
 
-#: posttypes/team.php:131
-msgid "Education"
+#: add-ons/form-ajax/ajax-forget-pwd.php:61
+msgid "Someone requested that the password be reset for the following account"
 msgstr ""
 
-#: posttypes/team.php:157
-msgid "Add Education"
+#: add-ons/form-ajax/ajax-forget-pwd.php:62
+msgid " with username: %s"
 msgstr ""
 
-#: posttypes/team.php:192
-msgid "Skills"
+#: add-ons/form-ajax/ajax-forget-pwd.php:63
+msgid "If this was a mistake, just ignore this email and nothing will happen."
 msgstr ""
 
-#: posttypes/team.php:218
-msgid "Add Skills"
+#: add-ons/form-ajax/ajax-forget-pwd.php:64
+msgid "To reset your password, visit the following address:"
 msgstr ""
 
-#: posttypes/megamenu.php:5 posttypes/megamenu.php:16
-msgid "Mega Menus"
+#: add-ons/form-ajax/ajax-forget-pwd.php:66
+msgid "Thank you!"
 msgstr ""
 
-#: posttypes/megamenu.php:6
-msgid "Mega Menu"
+#: add-ons/form-ajax/ajax-forget-pwd.php:85
+msgid "Success: Check your e-mail for the confirmation link."
 msgstr ""
 
-#: posttypes/megamenu.php:7 posttypes/megamenu.php:8
-msgid "Add Profile Mega Menu"
+#: add-ons/form-ajax/ajax-forget-pwd.php:89
+msgid "The e-mail could not be sent."
 msgstr ""
 
-#: posttypes/megamenu.php:9
-msgid "Edit Mega Menu"
+#: add-ons/form-ajax/ajax-forget-pwd.php:89
+msgid "Possible reason: your host may have disabled the mail() function."
 msgstr ""
 
-#: posttypes/megamenu.php:10
-msgid "New Profile"
+#: add-ons/form-ajax/ajax-forget-pwd.php:105
+msgid "Username or E-mail:"
 msgstr ""
 
-#: posttypes/megamenu.php:11
-msgid "View Mega Menu Profile"
+#: add-ons/form-ajax/ajax-forget-pwd.php:106
+#: add-ons/form-ajax/ajax-login.php:89
+#: add-ons/form-ajax/ajax-login.php:90
+msgid "Username"
 msgstr ""
 
-#: posttypes/megamenu.php:12
-msgid "Search Mega Menu Profiles"
+#: add-ons/form-ajax/ajax-forget-pwd.php:109
+msgid "Get New Password"
 msgstr ""
 
-#: posttypes/megamenu.php:13
-msgid "No Mega Menu Profiles found"
+#: add-ons/form-ajax/ajax-login.php:46
+msgid "Login successful, redirecting..."
 msgstr ""
 
-#: posttypes/megamenu.php:14
-msgid "No Mega Menu Profiles found in Trash"
+#: add-ons/form-ajax/ajax-login.php:70
+msgid "Login unsuccessful, plese try again!"
 msgstr ""
 
-#: posttypes/megamenu.php:15
-msgid "Parent Mega Menu:"
+#: add-ons/form-ajax/ajax-login.php:93
+msgid "Password"
 msgstr ""
 
-#: posttypes/megamenu.php:70 elementor/includes/overrides.php:58
-#: elementor/includes/overrides.php:95 elementor/includes/overrides.php:175
-msgid "-- None --"
+#: add-ons/form-ajax/ajax-login.php:98
+#: elementor/elements/user.php:131
+msgid "Login"
 msgstr ""
 
-#: posttypes/header.php:24 posttypes/header.php:25 posttypes/header.php:35
-msgid "Header Builder"
+#: add-ons/form-ajax/ajax-login.php:101
+msgid "Lost your password?"
 msgstr ""
 
-#: posttypes/header.php:26 posttypes/header.php:27
-msgid "Add Header Builder"
+#: add-ons/form-ajax/ajax-wishlist.php:83
+msgid "Wishlist"
 msgstr ""
 
-#: posttypes/header.php:28
-msgid "Edit Header"
+#: add-ons/form-ajax/template.php:11
+msgid "Signin"
 msgstr ""
 
-#: posttypes/header.php:29
-msgid "New Header Builder"
+#: add-ons/form-ajax/template.php:20
+#: add-ons/form-ajax/template.php:51
+msgid "Don't have an account"
 msgstr ""
 
-#: posttypes/header.php:30
-msgid "View Header Builder"
+#: add-ons/form-ajax/template.php:22
+#: add-ons/form-ajax/template.php:54
+#: add-ons/form-ajax/template.php:58
+#: elementor/elements/user.php:163
+msgid "Register"
 msgstr ""
 
-#: posttypes/header.php:31
-msgid "Search Header Profiles"
+#: add-ons/form-ajax/template.php:41
+msgid "Reset Password"
 msgstr ""
 
-#: posttypes/header.php:32
-msgid "No Header Profiles found"
+#: elementor/elements/base.php:22
+msgid "Carousel Options"
 msgstr ""
 
-#: posttypes/header.php:33
-msgid "No Header Profiles found in Trash"
+#: elementor/elements/base.php:32
+#: elementor/elements/base.php:204
+msgid "Columns for Large Screen"
 msgstr ""
 
-#: posttypes/header.php:34
-msgid "Parent Header:"
+#: elementor/elements/base.php:42
+#: elementor/elements/base.php:214
+msgid "Columns for Medium Screen"
 msgstr ""
 
-#: posttypes/header.php:41
-msgid "List Header"
+#: elementor/elements/base.php:52
+#: elementor/elements/base.php:224
+msgid "Columns for Small Screen"
 msgstr ""
 
-#: posttypes/portfolio.php:5 posttypes/portfolio.php:16
-msgid "Portfolios"
+#: elementor/elements/base.php:62
+#: elementor/elements/base.php:234
+msgid "Columns for Extra Small Screen"
 msgstr ""
 
-#: posttypes/portfolio.php:6
-msgid "Portfolio"
+#: elementor/elements/base.php:71
+#: elementor/elements/base.php:244
+msgid "Columns for Very Extra Small Screen"
 msgstr ""
 
-#: posttypes/portfolio.php:7 posttypes/portfolio.php:8
-msgid "Add New Portfolio"
+#: elementor/elements/base.php:82
+msgid "Loop"
 msgstr ""
 
-#: posttypes/portfolio.php:9
-msgid "Edit Portfolio"
+#: elementor/elements/base.php:91
+msgid "Speed"
 msgstr ""
 
-#: posttypes/portfolio.php:10
-msgid "New Portfolio"
+#: elementor/elements/base.php:100
+msgid "Auto Play"
 msgstr ""
 
-#: posttypes/portfolio.php:11
-msgid "View Portfolio"
+#: elementor/elements/base.php:109
+msgid "Auto Play Timeout"
 msgstr ""
 
-#: posttypes/portfolio.php:12
-msgid "Search Portfolios"
+#: elementor/elements/base.php:118
+msgid "Auto Play Speed"
 msgstr ""
 
-#: posttypes/portfolio.php:13
-msgid "No Portfolios found"
+#: elementor/elements/base.php:127
+msgid "Play Hover"
 msgstr ""
 
-#: posttypes/portfolio.php:14
-msgid "No Portfolios found in Trash"
+#: elementor/elements/base.php:136
+msgid "Navigation"
 msgstr ""
 
-#: posttypes/portfolio.php:15
-msgid "Parent Portfolio:"
+#: elementor/elements/base.php:145
+#: elementor/elements/category.php:204
+#: elementor/elements/course-filter.php:286
+#: elementor/elements/course.php:264
+#: elementor/elements/events.php:206
+#: elementor/elements/gallery.php:182
+#: elementor/elements/learning.php:179
+#: elementor/elements/portfolio.php:217
+#: elementor/elements/posts.php:224
+#: elementor/elements/teams.php:179
+msgid "Pagination"
 msgstr ""
 
-#: posttypes/portfolio.php:48 posttypes/portfolio.php:58
-msgid "Categories"
+#: elementor/elements/base.php:154
+msgid "Mouse Drag"
 msgstr ""
 
-#: posttypes/portfolio.php:49 elementor/templates/course-filter/filters.php:44
-msgid "Category"
+#: elementor/elements/base.php:163
+msgid "Touch Drag"
 msgstr ""
 
-#: posttypes/portfolio.php:50
-msgid "Search Category"
+#: elementor/elements/base.php:171
+msgid "Dots Spacing"
 msgstr ""
 
-#: posttypes/portfolio.php:51
-msgid "All Categories"
+#: elementor/elements/base.php:195
+msgid "Grid Options"
 msgstr ""
 
-#: posttypes/portfolio.php:52
-msgid "Parent Category"
+#: elementor/elements/base.php:254
+msgid "Remove Padding"
 msgstr ""
 
-#: posttypes/portfolio.php:53
-msgid "Parent Category:"
+#: elementor/elements/box-hover.php:44
+msgid "LNX Box Hover"
 msgstr ""
 
-#: posttypes/portfolio.php:54
-msgid "Edit Category"
-msgstr ""
-
-#: posttypes/portfolio.php:55
-msgid "Update Category"
-msgstr ""
-
-#: posttypes/portfolio.php:56
-msgid "Add New Category"
-msgstr ""
-
-#: posttypes/portfolio.php:57
-msgid "New Category Name"
-msgstr ""
-
-#: posttypes/portfolio.php:155 posttypes/portfolio.php:173
-msgid "Id"
-msgstr ""
-
-#: posttypes/portfolio.php:155
-msgid " - Title"
-msgstr ""
-
-#: posttypes/portfolio.php:171 elementor/elements/category.php:379
-#: elementor/elements/circle-progress.php:101
-#: elementor/elements/circle-progress.php:152 elementor/elements/gallery.php:79
-#: elementor/elements/video-carousel.php:94
-#: elementor/elements/video-carousel.php:170
-#: elementor/elements/course-filter.php:399 elementor/elements/map.php:105
-#: elementor/elements/work-process.php:458
-#: elementor/elements/heading-block.php:114
-#: elementor/elements/heading-block.php:497
-#: elementor/elements/countdown.php:102 elementor/elements/countdown.php:221
-#: elementor/elements/counter.php:270 elementor/elements/events.php:139
-#: elementor/elements/testimonial.php:111
-#: elementor/elements/locations-map.php:209
-#: elementor/elements/icon-box-styles.php:415
-#: elementor/elements/course-banner-group.php:122
-#: elementor/elements/course-banner-group.php:381
-#: elementor/elements/career-block.php:96
-#: elementor/elements/career-block.php:191 elementor/elements/portfolio.php:140
-#: elementor/elements/logo.php:95 elementor/elements/course.php:241
-#: elementor/elements/course.php:382 elementor/elements/pricing-block.php:109
-#: elementor/elements/pricing-block.php:244
-#: elementor/elements/brand-hover.php:128
-#: elementor/elements/course-banner.php:99
-#: elementor/elements/course-banner.php:288
-#: elementor/elements/icon-box-group.php:125
-#: elementor/elements/icon-box-group.php:285
-#: elementor/elements/services-group.php:125
-#: elementor/elements/services-group.php:279
-#: elementor/elements/image-content.php:112
-#: elementor/elements/image-content.php:270 elementor/elements/video-box.php:96
-#: elementor/elements/video-box.php:257 elementor/elements/posts.php:201
-#: elementor/elements/brand.php:95 elementor/elements/teams.php:105
-#: redux/redux-framework/inc/classes/class-redux-field.php:38
-#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:130
-#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:265
-msgid "Title"
-msgstr ""
-
-#: posttypes/portfolio.php:190
-msgid "Information"
-msgstr ""
-
-#: posttypes/portfolio.php:215
-msgid "Add Information"
-msgstr ""
-
-#: posttypes/footer.php:24 posttypes/footer.php:25 posttypes/footer.php:35
-msgid "Footer Builder"
-msgstr ""
-
-#: posttypes/footer.php:26 posttypes/footer.php:27
-msgid "Add Footer Builder"
-msgstr ""
-
-#: posttypes/footer.php:28
-msgid "Edit Footer"
-msgstr ""
-
-#: posttypes/footer.php:29
-msgid "New Footer Builder"
-msgstr ""
-
-#: posttypes/footer.php:30
-msgid "View Footer Builder"
-msgstr ""
-
-#: posttypes/footer.php:31
-msgid "Search Footer Profiles"
-msgstr ""
-
-#: posttypes/footer.php:32
-msgid "No Footer Profiles found"
-msgstr ""
-
-#: posttypes/footer.php:33
-msgid "No Footer Profiles found in Trash"
-msgstr ""
-
-#: posttypes/footer.php:34
-msgid "Parent Footer:"
-msgstr ""
-
-#: posttypes/footer.php:41
-msgid "List Footer"
-msgstr ""
-
-#: posttypes/footer.php:76
-msgid "Default Widget Footer"
-msgstr ""
-
-#: plugin-update/Puc/v4p9/Plugin/Ui.php:54
-msgid "View details"
-msgstr ""
-
-#: plugin-update/Puc/v4p9/Plugin/Ui.php:77
-#, php-format
-msgid "More information about %s"
-msgstr ""
-
-#: plugin-update/Puc/v4p9/Plugin/Ui.php:128
-msgid "Check for updates"
-msgstr ""
-
-#: plugin-update/Puc/v4p9/Plugin/Ui.php:223
-#, php-format
-msgid "Unknown update checker status \"%s\""
-msgstr ""
-
-#: plugin-update/Puc/v4p9/Vcs/PluginUpdateChecker.php:98
-msgid "There is no changelog available."
-msgstr ""
-
-#: elementor/init.php:82
-msgid "Lenxel Elements"
-msgstr ""
-
-#: elementor/includes/overrides.php:55 elementor/includes/overrides.php:172
-msgid "Style Available"
-msgstr ""
-
-#: elementor/includes/overrides.php:59
-msgid "Background Overflow Left"
-msgstr ""
-
-#: elementor/includes/overrides.php:60
-msgid "Background Overflow Right"
-msgstr ""
-
-#: elementor/includes/overrides.php:92
-msgid "Sticky Menu Row"
-msgstr ""
-
-#: elementor/includes/overrides.php:96
-msgid "Sticky Menu"
-msgstr ""
-
-#: elementor/includes/overrides.php:100
-msgid ""
-"You can only enable sticky menu for one row, please make sure display all "
-"sticky menu for other rows"
-msgstr ""
-
-#: elementor/includes/overrides.php:107
-msgid "Sticky Background Color"
-msgstr ""
-
-#: elementor/includes/overrides.php:120
-msgid "Sticky Text Color"
-msgstr ""
-
-#: elementor/includes/overrides.php:133
-msgid "Sticky Link Menu Color"
-msgstr ""
-
-#: elementor/includes/overrides.php:146
-msgid "Sticky Link Menu Hover Color"
-msgstr ""
-
-#: elementor/includes/overrides.php:176
-msgid "Background White Full To Left and Border Theme"
-msgstr ""
-
-#: elementor/includes/overrides.php:177
-msgid "Background Theme Full To Right"
-msgstr ""
-
-#: elementor/includes/overrides.php:187 elementor/elements/work-process.php:111
-#: elementor/elements/countdown.php:208 elementor/elements/testimonial.php:464
-#: elementor/elements/career-block.php:253
-msgid "Background Color"
-msgstr ""
-
-#: elementor/includes/overrides.php:191 elementor/includes/overrides.php:206
-msgid "-- Default --"
-msgstr ""
-
-#: elementor/includes/overrides.php:192
-msgid "Background Color Theme"
-msgstr ""
-
-#: elementor/includes/overrides.php:193
-msgid "Background Color Theme Second"
-msgstr ""
-
-#: elementor/includes/overrides.php:202
-msgid "Background Effect"
-msgstr ""
-
-#: elementor/includes/overrides.php:207
-msgid "Particles"
-msgstr ""
-
-#: elementor/includes/overrides.php:229 elementor/elements/gallery.php:162
-#: elementor/elements/gallery.php:173
-#: elementor/elements/course-filter-form.php:106
-#: elementor/elements/course-filter.php:119
-#: elementor/elements/search-box.php:97
-#: elementor/elements/heading-block.php:134 elementor/elements/counter.php:173
-#: elementor/elements/events.php:182 elementor/elements/icon-box-styles.php:97
-#: elementor/elements/course-banner-group.php:93
-#: elementor/elements/course-banner-group.php:107
-#: elementor/elements/portfolio.php:182 elementor/elements/portfolio.php:197
-#: elementor/elements/course.php:138 elementor/elements/pricing-block.php:97
-#: elementor/elements/icon-box-group.php:112
-#: elementor/elements/slider-images.php:111
-#: elementor/elements/services-group.php:113
-#: elementor/elements/image-content.php:95 elementor/elements/posts.php:123
-#: elementor/elements/teams.php:149 elementor/elements/teams.php:160
-msgid "Style"
-msgstr ""
-
-#: elementor/elements/course-users.php:47
-msgid "LNX Instructor/Students"
-msgstr ""
-
-#: elementor/elements/course-users.php:102 elementor/elements/box-hover.php:88
-#: elementor/elements/box-hover.php:140 elementor/elements/box-hover.php:383
+#: elementor/elements/box-hover.php:88
+#: elementor/elements/box-hover.php:140
+#: elementor/elements/box-hover.php:383
+#: elementor/elements/brand.php:87
+#: elementor/elements/career-block.php:90
+#: elementor/elements/career-block.php:158
 #: elementor/elements/circle-progress.php:95
-#: elementor/elements/course-filter-form.php:99
-#: elementor/elements/course-filter.php:99
-#: elementor/elements/navigation-menu.php:99 elementor/elements/map.php:98
-#: elementor/elements/search-box.php:264
-#: elementor/elements/work-process.php:200
-#: elementor/elements/work-process.php:450
-#: elementor/elements/heading-block.php:97 elementor/elements/countdown.php:96
-#: elementor/elements/counter.php:96 elementor/elements/user.php:100
-#: elementor/elements/testimonial.php:119
-#: elementor/elements/testimonial.php:237
-#: elementor/elements/locations-map.php:106
-#: elementor/elements/locations-map.php:240
-#: elementor/elements/icon-box-styles.php:407
+#: elementor/elements/countdown.php:96
+#: elementor/elements/counter.php:96
 #: elementor/elements/course-banner-group.php:87
 #: elementor/elements/course-banner-group.php:373
-#: elementor/elements/career-block.php:90
-#: elementor/elements/career-block.php:158 elementor/elements/rev-slider.php:83
-#: elementor/elements/logo.php:89 elementor/elements/pricing-block.php:91
-#: elementor/elements/pricing-block.php:302
 #: elementor/elements/course-banner.php:83
 #: elementor/elements/course-banner.php:280
+#: elementor/elements/course-filter-form.php:99
+#: elementor/elements/course-filter.php:99
+#: elementor/elements/heading-block.php:97
 #: elementor/elements/icon-box-group.php:86
 #: elementor/elements/icon-box-group.php:277
+#: elementor/elements/icon-box-styles.php:407
+#: elementor/elements/image-content.php:89
+#: elementor/elements/image-content.php:320
+#: elementor/elements/locations-map.php:106
+#: elementor/elements/locations-map.php:240
+#: elementor/elements/logo.php:89
+#: elementor/elements/map.php:98
+#: elementor/elements/navigation-menu.php:99
+#: elementor/elements/pricing-block.php:91
+#: elementor/elements/pricing-block.php:302
+#: elementor/elements/rev-slider.php:83
+#: elementor/elements/search-box.php:264
 #: elementor/elements/services-group.php:87
 #: elementor/elements/services-group.php:271
-#: elementor/elements/image-content.php:89
-#: elementor/elements/image-content.php:320 elementor/elements/video-box.php:89
-#: elementor/elements/video-box.php:249 elementor/elements/brand.php:87
+#: elementor/elements/testimonial.php:119
+#: elementor/elements/testimonial.php:237
+#: elementor/elements/user.php:100
+#: elementor/elements/video-box.php:89
+#: elementor/elements/video-box.php:249
+#: elementor/elements/work-process.php:200
+#: elementor/elements/work-process.php:450
 msgid "Content"
 msgstr ""
 
-#: elementor/elements/course-users.php:123 elementor/elements/course.php:183
-msgid "Select Individually (IDs)"
+#: elementor/elements/box-hover.php:94
+#: elementor/elements/brand-hover.php:102
+#: elementor/elements/brand.php:153
+#: elementor/elements/counter.php:173
+#: elementor/elements/course-banner-group.php:93
+#: elementor/elements/course-banner-group.php:107
+#: elementor/elements/course-filter-form.php:106
+#: elementor/elements/course-filter.php:119
+#: elementor/elements/course.php:138
+#: elementor/elements/events.php:182
+#: elementor/elements/gallery.php:162
+#: elementor/elements/gallery.php:173
+#: elementor/elements/heading-block.php:134
+#: elementor/elements/icon-box-group.php:112
+#: elementor/elements/icon-box-styles.php:97
+#: elementor/elements/image-content.php:95
+#: elementor/elements/portfolio.php:182
+#: elementor/elements/portfolio.php:197
+#: elementor/elements/posts.php:123
+#: elementor/elements/pricing-block.php:97
+#: elementor/elements/search-box.php:97
+#: elementor/elements/services-group.php:113
+#: elementor/elements/slider-images.php:111
+#: elementor/elements/teams.php:149
+#: elementor/elements/teams.php:160
+#: elementor/elements/testimonial.php:95
+#: elementor/includes/overrides.php:229
+msgid "Style"
 msgstr ""
 
-#: elementor/elements/course-users.php:182 elementor/elements/gallery.php:143
-#: elementor/elements/search-box.php:90 elementor/elements/events.php:162
+#: elementor/elements/box-hover.php:98
+msgid "Style I - Carousel"
+msgstr ""
+
+#: elementor/elements/box-hover.php:107
+#: elementor/elements/box-hover.php:336
+#: elementor/elements/category.php:182
+#: elementor/elements/learning.php:157
+#: elementor/elements/teams.php:198
+#: elementor/elements/testimonial.php:141
+#: elementor/elements/testimonial.php:338
+msgid "Name"
+msgstr ""
+
+#: elementor/elements/box-hover.php:115
+#: elementor/elements/work-process.php:123
+msgid "Background Image"
+msgstr ""
+
+#: elementor/elements/box-hover.php:129
+#: elementor/elements/icon-box-group.php:143
+msgid "Choose Icon"
+msgstr ""
+
+#: elementor/elements/box-hover.php:150
+#: elementor/elements/brand-hover.php:159
+#: elementor/elements/brand.php:115
+#: elementor/elements/career-block.php:128
+#: elementor/elements/counter.php:146
+#: elementor/elements/icon-box-group.php:154
+#: elementor/elements/icon-box-styles.php:211
+#: elementor/elements/image-content.php:206
+#: elementor/elements/locations-map.php:143
+#: elementor/elements/logo.php:116
+#: elementor/elements/services-group.php:154
+#: elementor/elements/work-process.php:286
+#: elementor/elements/work-process.php:292
+msgid "Link"
+msgstr ""
+
+#: elementor/elements/box-hover.php:152
+#: elementor/elements/brand-hover.php:160
+#: elementor/elements/brand.php:116
+#: elementor/elements/career-block.php:130
+#: elementor/elements/counter.php:148
+#: elementor/elements/icon-box-group.php:156
+#: elementor/elements/image-content.php:208
+#: elementor/elements/logo.php:118
+#: elementor/elements/services-group.php:156
+#: elementor/elements/video-box.php:134
+msgid "https://your-link.com"
+msgstr ""
+
+#: elementor/elements/box-hover.php:160
+msgid "Content Item"
+msgstr ""
+
+#: elementor/elements/box-hover.php:170
+#: elementor/elements/box-hover.php:177
+#: elementor/elements/box-hover.php:184
+#: elementor/elements/box-hover.php:191
+msgid "There are many variations of passages of available but the majority have suffered alter randomised words."
+msgstr ""
+
+#: elementor/elements/box-hover.php:208
+msgid "Box Height"
+msgstr ""
+
+#: elementor/elements/box-hover.php:228
+#: elementor/elements/course-banner-group.php:281
+#: elementor/elements/testimonial.php:220
+#: elementor/elements/video-carousel.php:157
+msgid "View"
+msgstr ""
+
+#: elementor/elements/box-hover.php:245
+#: elementor/elements/cart.php:90
+#: elementor/elements/counter.php:190
+#: elementor/elements/course-banner-group.php:297
+#: elementor/elements/course-banner.php:204
+#: elementor/elements/heading-block.php:246
+#: elementor/elements/heading-block.php:253
+#: elementor/elements/icon-box-group.php:201
+#: elementor/elements/icon-box-styles.php:112
+#: elementor/elements/icon-box-styles.php:287
+#: elementor/elements/image-content.php:122
+#: elementor/elements/search-box.php:111
+#: elementor/elements/search-box.php:119
+#: elementor/elements/search-box.php:134
+#: elementor/elements/services-group.php:195
+#: elementor/elements/user.php:187
+#: elementor/elements/video-box.php:166
+#: elementor/elements/work-process.php:98
+#: elementor/elements/work-process.php:305
+msgid "Icon"
+msgstr ""
+
+#: elementor/elements/box-hover.php:252
+#: elementor/elements/box-hover.php:263
+msgid "Icon Background Color"
+msgstr ""
+
+#: elementor/elements/box-hover.php:275
+#: elementor/elements/course-banner-group.php:318
+#: elementor/elements/course-banner.php:225
+#: elementor/elements/icon-box-group.php:222
+#: elementor/elements/icon-box-styles.php:350
+#: elementor/elements/services-group.php:216
+#: elementor/elements/video-box.php:214
+#: elementor/elements/work-process.php:368
+msgid "Size"
+msgstr ""
+
+#: elementor/elements/box-hover.php:304
+msgid "Icon Border Radius"
+msgstr ""
+
+#: elementor/elements/box-hover.php:315
+#: elementor/elements/box-hover.php:362
+#: elementor/elements/box-hover.php:408
+#: elementor/elements/career-block.php:215
+#: elementor/elements/career-block.php:270
+#: elementor/elements/career-block.php:315
+#: elementor/elements/countdown.php:190
+#: elementor/elements/course-banner-group.php:359
+#: elementor/elements/course-banner.php:266
+#: elementor/elements/icon-box-group.php:263
+#: elementor/elements/icon-box-styles.php:242
+#: elementor/elements/logo.php:172
+#: elementor/elements/search-box.php:238
+#: elementor/elements/search-box.php:272
+#: elementor/elements/services-group.php:257
+#: elementor/elements/video-box.php:234
+#: elementor/elements/work-process.php:409
+msgid "Padding"
+msgstr ""
+
+#: elementor/elements/box-hover.php:343
+#: elementor/elements/box-hover.php:390
+#: elementor/elements/career-block.php:198
+#: elementor/elements/career-block.php:243
+#: elementor/elements/career-block.php:298
+#: elementor/elements/category.php:424
+#: elementor/elements/category.php:472
+#: elementor/elements/category.php:550
+#: elementor/elements/circle-progress.php:160
+#: elementor/elements/countdown.php:228
+#: elementor/elements/course-filter.php:406
+#: elementor/elements/course-filter.php:452
+#: elementor/elements/course-filter.php:512
+#: elementor/elements/course.php:389
+#: elementor/elements/course.php:435
+#: elementor/elements/course.php:495
+#: elementor/elements/heading-block.php:504
+#: elementor/elements/heading-block.php:550
+#: elementor/elements/heading-block.php:610
+#: elementor/elements/image-content.php:278
+#: elementor/elements/image-content.php:331
+#: elementor/elements/learning.php:276
+#: elementor/elements/learning.php:322
+#: elementor/elements/learning.php:562
+#: elementor/elements/locations-map.php:217
+#: elementor/elements/locations-map.php:248
+#: elementor/elements/navigation-menu.php:181
+#: elementor/elements/navigation-menu.php:293
+#: elementor/elements/pricing-block.php:252
+#: elementor/elements/pricing-block.php:281
+#: elementor/elements/pricing-block.php:310
+#: elementor/elements/teams.php:206
+#: elementor/elements/teams.php:267
+#: elementor/elements/testimonial.php:245
+#: elementor/elements/testimonial.php:346
+#: elementor/elements/testimonial.php:397
+#: elementor/elements/user.php:291
+#: elementor/elements/video-carousel.php:177
+msgid "Text Color"
+msgstr ""
+
+#: elementor/elements/brand-hover.php:43
+msgid "LNX Brand Hover"
+msgstr ""
+
+#: elementor/elements/brand-hover.php:87
+#: elementor/elements/category.php:121
+#: elementor/elements/course.php:117
+#: elementor/elements/learning.php:117
+msgid "Layout & Content"
+msgstr ""
+
+#: elementor/elements/brand-hover.php:95
 #: elementor/elements/course-banner-group.php:230
-#: elementor/elements/portfolio.php:163 elementor/elements/brand-hover.php:95
+#: elementor/elements/events.php:162
+#: elementor/elements/gallery.php:143
 #: elementor/elements/icon-box-group.php:92
+#: elementor/elements/portfolio.php:163
+#: elementor/elements/posts.php:102
+#: elementor/elements/search-box.php:90
+#: elementor/elements/services-group.php:93
 #: elementor/elements/slider-images.php:103
-#: elementor/elements/services-group.php:93 elementor/elements/posts.php:102
 #: elementor/elements/teams.php:130
 msgid "Layout"
 msgstr ""
 
-#: elementor/elements/course-users.php:189 elementor/elements/category.php:128
-#: elementor/elements/learning.php:124 elementor/elements/gallery.php:150
-#: elementor/elements/events.php:169
-#: elementor/elements/course-banner-group.php:238
-#: elementor/elements/portfolio.php:170 elementor/elements/course.php:124
+#: elementor/elements/brand-hover.php:106
+#: elementor/elements/brand.php:157
+#: elementor/elements/counter.php:176
+#: elementor/elements/course-banner-group.php:96
+#: elementor/elements/course-filter-form.php:109
+#: elementor/elements/heading-block.php:137
+#: elementor/elements/icon-box-group.php:115
+#: elementor/elements/icon-box-styles.php:100
+#: elementor/elements/image-content.php:98
+#: elementor/elements/search-box.php:100
+#: elementor/elements/services-group.php:116
+#: elementor/elements/video-box.php:108
+#: elementor/includes/overrides.php:233
+msgid "Style I"
+msgstr ""
+
 #: elementor/elements/brand-hover.php:113
+#: elementor/elements/category.php:128
+#: elementor/elements/course-banner-group.php:238
+#: elementor/elements/course.php:124
+#: elementor/elements/events.php:169
+#: elementor/elements/gallery.php:150
 #: elementor/elements/icon-box-group.php:99
-#: elementor/elements/services-group.php:100 elementor/elements/posts.php:109
+#: elementor/elements/learning.php:124
+#: elementor/elements/portfolio.php:170
+#: elementor/elements/posts.php:109
+#: elementor/elements/services-group.php:100
 #: elementor/elements/teams.php:137
 msgid "Layout Display"
 msgstr ""
 
-#: elementor/elements/course-users.php:193 elementor/elements/category.php:132
-#: elementor/elements/learning.php:128 elementor/elements/gallery.php:154
-#: elementor/elements/events.php:175
-#: elementor/elements/course-banner-group.php:242
-#: elementor/elements/portfolio.php:174 elementor/elements/course.php:128
 #: elementor/elements/brand-hover.php:117
+#: elementor/elements/category.php:132
+#: elementor/elements/course-banner-group.php:242
+#: elementor/elements/course.php:128
+#: elementor/elements/events.php:175
+#: elementor/elements/gallery.php:154
 #: elementor/elements/icon-box-group.php:103
-#: elementor/elements/services-group.php:104 elementor/elements/posts.php:113
+#: elementor/elements/learning.php:128
+#: elementor/elements/portfolio.php:174
+#: elementor/elements/posts.php:113
+#: elementor/elements/services-group.php:104
 #: elementor/elements/teams.php:141
 msgid "Grid"
 msgstr ""
 
-#: elementor/elements/course-users.php:194 elementor/elements/category.php:133
-#: elementor/elements/gallery.php:155 elementor/elements/events.php:174
-#: elementor/elements/course-banner-group.php:243
-#: elementor/elements/portfolio.php:175 elementor/elements/course.php:129
 #: elementor/elements/brand-hover.php:118
+#: elementor/elements/category.php:133
+#: elementor/elements/course-banner-group.php:243
+#: elementor/elements/course.php:129
+#: elementor/elements/events.php:174
+#: elementor/elements/gallery.php:155
 #: elementor/elements/icon-box-group.php:104
-#: elementor/elements/services-group.php:105 elementor/elements/posts.php:114
+#: elementor/elements/portfolio.php:175
+#: elementor/elements/posts.php:114
+#: elementor/elements/services-group.php:105
 #: elementor/elements/teams.php:142
 msgid "Carousel"
 msgstr ""
 
-#: elementor/elements/course-users.php:195 elementor/elements/category.php:134
-#: elementor/elements/events.php:173 elementor/elements/course.php:130
-msgid "List"
+#: elementor/elements/brand-hover.php:128
+#: elementor/elements/brand.php:95
+#: elementor/elements/career-block.php:96
+#: elementor/elements/career-block.php:191
+#: elementor/elements/category.php:417
+#: elementor/elements/circle-progress.php:101
+#: elementor/elements/circle-progress.php:152
+#: elementor/elements/countdown.php:102
+#: elementor/elements/countdown.php:221
+#: elementor/elements/counter.php:270
+#: elementor/elements/course-banner-group.php:122
+#: elementor/elements/course-banner-group.php:381
+#: elementor/elements/course-banner.php:99
+#: elementor/elements/course-banner.php:288
+#: elementor/elements/course-filter.php:399
+#: elementor/elements/course.php:241
+#: elementor/elements/course.php:382
+#: elementor/elements/events.php:139
+#: elementor/elements/gallery.php:79
+#: elementor/elements/heading-block.php:114
+#: elementor/elements/heading-block.php:497
+#: elementor/elements/icon-box-group.php:125
+#: elementor/elements/icon-box-group.php:285
+#: elementor/elements/icon-box-styles.php:415
+#: elementor/elements/image-content.php:112
+#: elementor/elements/image-content.php:270
+#: elementor/elements/locations-map.php:209
+#: elementor/elements/logo.php:95
+#: elementor/elements/map.php:105
+#: elementor/elements/portfolio.php:140
+#: elementor/elements/posts.php:201
+#: elementor/elements/pricing-block.php:109
+#: elementor/elements/pricing-block.php:244
+#: elementor/elements/services-group.php:125
+#: elementor/elements/services-group.php:279
+#: elementor/elements/teams.php:105
+#: elementor/elements/testimonial.php:111
+#: elementor/elements/video-box.php:96
+#: elementor/elements/video-box.php:257
+#: elementor/elements/video-carousel.php:94
+#: elementor/elements/video-carousel.php:170
+#: elementor/elements/work-process.php:458
+msgid "Title"
+msgstr ""
+
+#: elementor/elements/brand-hover.php:130
+msgid "Brand"
+msgstr ""
+
+#: elementor/elements/brand-hover.php:137
+#: elementor/elements/brand.php:104
+#: elementor/elements/course-banner-group.php:141
+#: elementor/elements/course-banner.php:136
+#: elementor/elements/icon-box-styles.php:124
+#: elementor/elements/image-content.php:137
+#: elementor/elements/locations-map.php:124
+#: elementor/elements/services-group.php:143
+#: elementor/elements/testimonial.php:129
+#: elementor/elements/video-carousel.php:103
+msgid "Choose Image"
+msgstr ""
+
+#: elementor/elements/brand-hover.php:148
+msgid "Choose Image Hover"
+msgstr ""
+
+#: elementor/elements/brand-hover.php:167
+#: elementor/elements/icon-box-group.php:163
+#: elementor/elements/icon-box-group.php:165
+#: elementor/elements/icon-box-styles.php:194
+#: elementor/elements/navigation-menu.php:221
+#: elementor/elements/navigation-menu.php:335
+msgid "Active"
+msgstr ""
+
+#: elementor/elements/brand-hover.php:175
+#: elementor/elements/brand.php:124
+#: elementor/elements/icon-box-group.php:173
+msgid "Brand Content Item"
+msgstr ""
+
+#: elementor/elements/brand-hover.php:181
+#: elementor/elements/brand.php:130
+msgid "Brand 1"
+msgstr ""
+
+#: elementor/elements/brand-hover.php:184
+#: elementor/elements/brand.php:133
+msgid "Brand 2"
+msgstr ""
+
+#: elementor/elements/brand-hover.php:187
+#: elementor/elements/brand.php:136
+msgid "Brand 3"
+msgstr ""
+
+#: elementor/elements/brand-hover.php:190
+#: elementor/elements/brand.php:139
+msgid "Brand 4"
+msgstr ""
+
+#: elementor/elements/brand-hover.php:207
+#: elementor/elements/brand.php:179
+#: elementor/elements/career-block.php:139
+#: elementor/elements/gallery.php:68
+#: elementor/elements/slider-images.php:68
+#: elementor/elements/testimonial.php:288
+#: elementor/elements/video-box.php:118
+msgid "Image"
+msgstr ""
+
+#: elementor/elements/brand-hover.php:223
+#: elementor/elements/brand.php:195
+#: elementor/elements/category.php:281
+#: elementor/elements/category.php:529
+#: elementor/elements/course-filter.php:358
+#: elementor/elements/course.php:341
+#: elementor/elements/heading-block.php:456
+#: elementor/elements/icon-box-styles.php:392
+#: elementor/elements/learning.php:256
+#: elementor/elements/learning.php:379
+#: elementor/elements/logo.php:203
+#: elementor/elements/search-box.php:250
+#: elementor/elements/testimonial.php:323
+#: elementor/elements/work-process.php:159
+#: elementor/elements/work-process.php:428
+msgid "Border Radius"
+msgstr ""
+
+#: elementor/elements/brand.php:43
+msgid "LNX Brand"
+msgstr ""
+
+#: elementor/elements/brand.php:142
+msgid "Brand 5"
+msgstr ""
+
+#: elementor/elements/brand.php:145
+msgid "Brand 6"
+msgstr ""
+
+#: elementor/elements/career-block.php:47
+msgid "LNX Career Block"
+msgstr ""
+
+#: elementor/elements/career-block.php:101
+#: elementor/elements/circle-progress.php:104
+#: elementor/elements/countdown.php:104
+#: elementor/elements/counter.php:139
+#: elementor/elements/heading-block.php:116
+#: elementor/elements/icon-box-styles.php:141
+#: elementor/elements/image-content.php:114
+#: elementor/elements/logo.php:97
+#: elementor/elements/map.php:107
+#: elementor/elements/pricing-block.php:111
+#: elementor/elements/work-process.php:210
+msgid "Enter your title"
+msgstr ""
+
+#: elementor/elements/career-block.php:102
+#: elementor/elements/countdown.php:105
+#: elementor/elements/heading-block.php:117
+msgid "Add Your Heading Text Here"
+msgstr ""
+
+#: elementor/elements/career-block.php:109
+#: elementor/elements/heading-block.php:148
+#: elementor/elements/image-content.php:187
+msgid "HTML Tag"
+msgstr ""
+
+#: elementor/elements/career-block.php:145
+#: elementor/elements/heading-block.php:263
+msgid "Icon Image"
+msgstr ""
+
+#: elementor/elements/career-block.php:164
+#: elementor/elements/career-block.php:236
+msgid "Job Type"
+msgstr ""
+
+#: elementor/elements/career-block.php:172
+msgid "Company"
+msgstr ""
+
+#: elementor/elements/career-block.php:180
+#: elementor/elements/locations-map.php:134
+msgid "Address"
+msgstr ""
+
+#: elementor/elements/career-block.php:253
+#: elementor/elements/countdown.php:208
+#: elementor/elements/testimonial.php:464
+#: elementor/elements/work-process.php:111
+#: elementor/includes/overrides.php:187
+msgid "Background Color"
+msgstr ""
+
+#: elementor/elements/career-block.php:291
+msgid "Information (Address & Company)"
+msgstr ""
+
+#: elementor/elements/cart.php:46
+msgid "LNX Cart Box"
+msgstr ""
+
+#: elementor/elements/cart.php:98
+#: elementor/elements/circle-progress.php:118
+#: elementor/elements/counter.php:295
+#: elementor/elements/counter.php:343
+#: elementor/elements/course-banner-group.php:410
+#: elementor/elements/course-banner-group.php:443
+#: elementor/elements/course-banner.php:317
+#: elementor/elements/course-banner.php:350
+#: elementor/elements/icon-box-group.php:314
+#: elementor/elements/icon-box-group.php:347
+#: elementor/elements/icon-box-styles.php:445
+#: elementor/elements/icon-box-styles.php:478
+#: elementor/elements/navigation-menu.php:191
+#: elementor/elements/navigation-menu.php:209
+#: elementor/elements/navigation-menu.php:227
+#: elementor/elements/navigation-menu.php:303
+#: elementor/elements/navigation-menu.php:341
+#: elementor/elements/posts.php:425
+#: elementor/elements/search-box.php:192
+#: elementor/elements/services-group.php:308
+#: elementor/elements/services-group.php:341
+#: elementor/elements/user.php:259
+#: elementor/elements/user.php:339
+#: elementor/elements/video-box.php:286
+#: elementor/elements/video-box.php:318
+#: elementor/elements/work-process.php:488
+#: elementor/elements/work-process.php:521
+msgid "Color"
+msgstr ""
+
+#: elementor/elements/cart.php:109
+msgid "Number Color"
+msgstr ""
+
+#: elementor/elements/cart.php:119
+msgid "Number Background"
 msgstr ""
 
 #: elementor/elements/category.php:47
 msgid "LNX Category"
 msgstr ""
 
-#: elementor/elements/category.php:94 elementor/elements/learning.php:94
-#: elementor/elements/events.php:57 elementor/elements/events.php:77
-#: elementor/elements/portfolio.php:58 elementor/elements/portfolio.php:78
-#: elementor/elements/course.php:94 elementor/elements/posts.php:57
-#: elementor/elements/posts.php:77 elementor/elements/teams.php:54
+#: elementor/elements/category.php:94
+#: elementor/elements/course.php:94
+#: elementor/elements/events.php:57
+#: elementor/elements/events.php:77
+#: elementor/elements/learning.php:94
+#: elementor/elements/portfolio.php:58
+#: elementor/elements/portfolio.php:78
+#: elementor/elements/posts.php:57
+#: elementor/elements/posts.php:77
+#: elementor/elements/teams.php:54
 msgid "None"
 msgstr ""
 
-#: elementor/elements/category.php:121 elementor/elements/learning.php:117
-#: elementor/elements/course.php:117 elementor/elements/brand-hover.php:87
-msgid "Layout & Content"
+#: elementor/elements/category.php:134
+#: elementor/elements/course.php:130
+#: elementor/elements/events.php:173
+msgid "List"
 msgstr ""
 
-#: elementor/elements/category.php:142 elementor/elements/learning.php:136
-#: elementor/elements/course.php:155 elementor/elements/posts.php:138
+#: elementor/elements/category.php:142
+#: elementor/elements/course.php:155
+#: elementor/elements/learning.php:136
+#: elementor/elements/posts.php:138
 msgid "Image Style"
 msgstr ""
 
-#: elementor/elements/category.php:152 elementor/elements/course.php:165
+#: elementor/elements/category.php:152
+#: elementor/elements/course.php:165
 #: elementor/elements/posts.php:156
 msgid "Query"
 msgstr ""
 
-#: elementor/elements/category.php:159 elementor/elements/events.php:102
-#: elementor/elements/portfolio.php:103 elementor/elements/course.php:172
+#: elementor/elements/category.php:159
+#: elementor/elements/course.php:172
+#: elementor/elements/events.php:102
+#: elementor/elements/portfolio.php:103
 #: elementor/elements/posts.php:163
 msgid "Select By Category"
 msgstr ""
@@ -600,106 +878,105 @@ msgstr ""
 msgid "Category Per Page"
 msgstr ""
 
-#: elementor/elements/category.php:178 elementor/elements/learning.php:153
-#: elementor/elements/events.php:134 elementor/elements/portfolio.php:135
-#: elementor/elements/course.php:236 elementor/elements/posts.php:196
+#: elementor/elements/category.php:178
+#: elementor/elements/course.php:236
+#: elementor/elements/events.php:134
+#: elementor/elements/learning.php:153
+#: elementor/elements/portfolio.php:135
+#: elementor/elements/posts.php:196
 #: elementor/elements/teams.php:100
 msgid "Order By"
 msgstr ""
 
-#: elementor/elements/category.php:182 elementor/elements/box-hover.php:107
-#: elementor/elements/box-hover.php:336 elementor/elements/learning.php:157
-#: elementor/elements/testimonial.php:141
-#: elementor/elements/testimonial.php:338 elementor/elements/teams.php:198
-msgid "Name"
-msgstr ""
-
-#: elementor/elements/category.php:183 elementor/elements/learning.php:158
-#: elementor/elements/events.php:141 elementor/elements/portfolio.php:142
-#: elementor/elements/course.php:243 elementor/elements/posts.php:203
+#: elementor/elements/category.php:183
+#: elementor/elements/course.php:243
+#: elementor/elements/events.php:141
+#: elementor/elements/learning.php:158
+#: elementor/elements/portfolio.php:142
+#: elementor/elements/posts.php:203
 #: elementor/elements/teams.php:107
 msgid "Random"
 msgstr ""
 
-#: elementor/elements/category.php:191 elementor/elements/learning.php:166
-#: elementor/elements/events.php:149 elementor/elements/portfolio.php:150
-#: elementor/elements/course.php:251 elementor/elements/posts.php:211
+#: elementor/elements/category.php:191
+#: elementor/elements/course.php:251
+#: elementor/elements/events.php:149
+#: elementor/elements/learning.php:166
+#: elementor/elements/portfolio.php:150
+#: elementor/elements/posts.php:211
 #: elementor/elements/teams.php:115
 msgid "Order"
 msgstr ""
 
-#: elementor/elements/category.php:195 elementor/elements/learning.php:170
-#: elementor/elements/events.php:153 elementor/elements/portfolio.php:154
-#: elementor/elements/course.php:255 elementor/elements/posts.php:215
+#: elementor/elements/category.php:195
+#: elementor/elements/course.php:255
+#: elementor/elements/events.php:153
+#: elementor/elements/learning.php:170
+#: elementor/elements/portfolio.php:154
+#: elementor/elements/posts.php:215
 #: elementor/elements/teams.php:119
 msgid "ASC"
 msgstr ""
 
-#: elementor/elements/category.php:196 elementor/elements/learning.php:171
-#: elementor/elements/events.php:154 elementor/elements/portfolio.php:155
-#: elementor/elements/course.php:256 elementor/elements/posts.php:216
+#: elementor/elements/category.php:196
+#: elementor/elements/course.php:256
+#: elementor/elements/events.php:154
+#: elementor/elements/learning.php:171
+#: elementor/elements/portfolio.php:155
+#: elementor/elements/posts.php:216
 #: elementor/elements/teams.php:120
 msgid "DESC"
 msgstr ""
 
-#: elementor/elements/category.php:204 elementor/elements/learning.php:179
-#: elementor/elements/gallery.php:182 elementor/elements/course-filter.php:286
-#: elementor/elements/events.php:206 elementor/elements/portfolio.php:217
-#: elementor/elements/course.php:264 elementor/elements/base.php:145
-#: elementor/elements/posts.php:224 elementor/elements/teams.php:179
-msgid "Pagination"
-msgstr ""
-
-#: elementor/elements/category.php:222 elementor/elements/learning.php:197
+#: elementor/elements/category.php:222
 #: elementor/elements/course-filter.php:299
-#: elementor/elements/heading-block.php:397 elementor/elements/course.php:282
+#: elementor/elements/course.php:282
+#: elementor/elements/heading-block.php:397
+#: elementor/elements/learning.php:197
 msgid "Video Button"
 msgstr ""
 
-#: elementor/elements/category.php:232 elementor/elements/category.php:242
-#: elementor/elements/learning.php:207 elementor/elements/learning.php:217
+#: elementor/elements/category.php:232
+#: elementor/elements/category.php:242
 #: elementor/elements/course-filter.php:309
 #: elementor/elements/course-filter.php:319
+#: elementor/elements/course.php:292
+#: elementor/elements/course.php:302
 #: elementor/elements/heading-block.php:407
 #: elementor/elements/heading-block.php:417
-#: elementor/elements/icon-box-styles.php:229 elementor/elements/course.php:292
-#: elementor/elements/course.php:302 elementor/elements/image-content.php:239
-#: elementor/elements/video-box.php:152 elementor/elements/video-box.php:175
+#: elementor/elements/icon-box-styles.php:229
+#: elementor/elements/image-content.php:239
+#: elementor/elements/learning.php:207
+#: elementor/elements/learning.php:217
+#: elementor/elements/video-box.php:152
+#: elementor/elements/video-box.php:175
 msgid "Primary Color"
 msgstr ""
 
-#: elementor/elements/category.php:252 elementor/elements/learning.php:227
+#: elementor/elements/category.php:252
 #: elementor/elements/course-filter.php:329
-#: elementor/elements/heading-block.php:427 elementor/elements/course.php:312
+#: elementor/elements/course.php:312
+#: elementor/elements/heading-block.php:427
+#: elementor/elements/learning.php:227
 msgid "Text Button Video Color"
 msgstr ""
 
-#: elementor/elements/category.php:262 elementor/elements/learning.php:237
+#: elementor/elements/category.php:262
 #: elementor/elements/course-filter.php:339
-#: elementor/elements/heading-block.php:437 elementor/elements/course.php:322
+#: elementor/elements/course.php:322
+#: elementor/elements/heading-block.php:437
+#: elementor/elements/learning.php:237
 msgid "Video Button Size"
 msgstr ""
 
-#: elementor/elements/category.php:281 elementor/elements/learning.php:256
-#: elementor/elements/course-filter.php:358
-#: elementor/elements/search-box.php:250
-#: elementor/elements/work-process.php:159
-#: elementor/elements/work-process.php:428
-#: elementor/elements/heading-block.php:456
-#: elementor/elements/testimonial.php:323
-#: elementor/elements/icon-box-styles.php:392 elementor/elements/logo.php:203
-#: elementor/elements/course.php:341 elementor/elements/brand-hover.php:223
-#: elementor/elements/brand.php:195
-msgid "Border Radius"
-msgstr ""
-
 #: elementor/elements/category.php:294
+#: elementor/elements/countdown.php:183
 #: elementor/elements/course-filter-form.php:240
 #: elementor/elements/course-filter.php:371
+#: elementor/elements/course.php:354
 #: elementor/elements/heading-block.php:469
-#: elementor/elements/countdown.php:183
-#: elementor/elements/locations-map.php:186 elementor/elements/course.php:354
 #: elementor/elements/image-content.php:231
+#: elementor/elements/locations-map.php:186
 msgid "Box"
 msgstr ""
 
@@ -712,232 +989,95 @@ msgid "Card Element Space Bottom"
 msgstr ""
 
 #: elementor/elements/category.php:330
+msgid "Card Element Space Divider"
+msgstr ""
+
+#: elementor/elements/category.php:349
+msgid "Card container width"
+msgstr ""
+
+#: elementor/elements/category.php:368
 msgid "Card Padding Spacing"
 msgstr ""
 
-#: elementor/elements/category.php:386 elementor/elements/category.php:434
-#: elementor/elements/category.php:512 elementor/elements/box-hover.php:343
-#: elementor/elements/box-hover.php:390
-#: elementor/elements/circle-progress.php:160
-#: elementor/elements/learning.php:276 elementor/elements/learning.php:322
-#: elementor/elements/learning.php:562
-#: elementor/elements/video-carousel.php:177
-#: elementor/elements/course-filter.php:406
-#: elementor/elements/course-filter.php:452
-#: elementor/elements/course-filter.php:512
-#: elementor/elements/navigation-menu.php:181
-#: elementor/elements/navigation-menu.php:293
-#: elementor/elements/heading-block.php:504
-#: elementor/elements/heading-block.php:550
-#: elementor/elements/heading-block.php:610
-#: elementor/elements/countdown.php:228 elementor/elements/user.php:291
-#: elementor/elements/testimonial.php:245
-#: elementor/elements/testimonial.php:346
-#: elementor/elements/testimonial.php:397
-#: elementor/elements/locations-map.php:217
-#: elementor/elements/locations-map.php:248
-#: elementor/elements/career-block.php:198
-#: elementor/elements/career-block.php:243
-#: elementor/elements/career-block.php:298 elementor/elements/course.php:389
-#: elementor/elements/course.php:435 elementor/elements/course.php:495
-#: elementor/elements/pricing-block.php:252
-#: elementor/elements/pricing-block.php:281
-#: elementor/elements/pricing-block.php:310
-#: elementor/elements/image-content.php:278
-#: elementor/elements/image-content.php:331 elementor/elements/teams.php:206
-#: elementor/elements/teams.php:267
-msgid "Text Color"
-msgstr ""
-
-#: elementor/elements/category.php:405 elementor/elements/learning.php:293
-#: elementor/elements/learning.php:416 elementor/elements/course-filter.php:423
-#: elementor/elements/heading-block.php:521 elementor/elements/course.php:406
+#: elementor/elements/category.php:443
+#: elementor/elements/course-filter.php:423
+#: elementor/elements/course.php:406
+#: elementor/elements/heading-block.php:521
+#: elementor/elements/learning.php:293
+#: elementor/elements/learning.php:416
 msgid "Title Spacing"
 msgstr ""
 
-#: elementor/elements/category.php:426 elementor/elements/learning.php:314
+#: elementor/elements/category.php:464
 #: elementor/elements/course-filter.php:444
+#: elementor/elements/course.php:427
 #: elementor/elements/heading-block.php:104
-#: elementor/elements/heading-block.php:542 elementor/elements/course.php:427
+#: elementor/elements/heading-block.php:542
+#: elementor/elements/learning.php:314
 #: elementor/elements/pricing-block.php:119
 msgid "Sub Title"
 msgstr ""
 
-#: elementor/elements/category.php:444 elementor/elements/learning.php:332
+#: elementor/elements/category.php:482
 #: elementor/elements/course-filter.php:463
-#: elementor/elements/heading-block.php:561 elementor/elements/course.php:446
+#: elementor/elements/course.php:446
+#: elementor/elements/heading-block.php:561
+#: elementor/elements/learning.php:332
 msgid "Line Color"
 msgstr ""
 
-#: elementor/elements/category.php:455 elementor/elements/learning.php:343
+#: elementor/elements/category.php:493
 #: elementor/elements/course-filter.php:474
-#: elementor/elements/heading-block.php:572 elementor/elements/course.php:457
+#: elementor/elements/course.php:457
+#: elementor/elements/heading-block.php:572
+#: elementor/elements/learning.php:343
 msgid "Sub Title Spacing"
 msgstr ""
 
-#: elementor/elements/category.php:484 elementor/elements/learning.php:372
+#: elementor/elements/category.php:522
+#: elementor/elements/learning.php:372
 msgid "Image Border Radius"
 msgstr ""
 
-#: elementor/elements/category.php:504 elementor/elements/learning.php:554
+#: elementor/elements/category.php:542
+#: elementor/elements/course-banner-group.php:431
+#: elementor/elements/course-banner.php:338
 #: elementor/elements/course-filter.php:504
-#: elementor/elements/work-process.php:509
+#: elementor/elements/course.php:487
 #: elementor/elements/heading-block.php:125
 #: elementor/elements/heading-block.php:602
-#: elementor/elements/icon-box-styles.php:466
-#: elementor/elements/course-banner-group.php:431
-#: elementor/elements/course.php:487 elementor/elements/pricing-block.php:129
-#: elementor/elements/course-banner.php:338
 #: elementor/elements/icon-box-group.php:134
 #: elementor/elements/icon-box-group.php:335
+#: elementor/elements/icon-box-styles.php:466
+#: elementor/elements/image-content.php:175
+#: elementor/elements/learning.php:554
+#: elementor/elements/pricing-block.php:129
 #: elementor/elements/services-group.php:134
 #: elementor/elements/services-group.php:329
-#: elementor/elements/image-content.php:175
 #: elementor/elements/video-box.php:306
-#: redux/redux-framework/inc/classes/class-redux-field.php:40
-#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:142
-#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:278
+#: elementor/elements/work-process.php:509
 msgid "Description"
 msgstr ""
 
-#: elementor/elements/category.php:531 elementor/elements/learning.php:581
+#: elementor/elements/category.php:569
 #: elementor/elements/course-filter.php:531
-#: elementor/elements/heading-block.php:629 elementor/elements/course.php:514
+#: elementor/elements/course.php:514
+#: elementor/elements/heading-block.php:629
+#: elementor/elements/learning.php:581
 msgid "Description Spacing"
-msgstr ""
-
-#: elementor/elements/box-hover.php:44
-msgid "LNX Box Hover"
-msgstr ""
-
-#: elementor/elements/box-hover.php:115 elementor/elements/work-process.php:123
-msgid "Background Image"
-msgstr ""
-
-#: elementor/elements/box-hover.php:129
-#: elementor/elements/icon-box-group.php:143
-msgid "Choose Icon"
-msgstr ""
-
-#: elementor/elements/box-hover.php:150 elementor/elements/work-process.php:286
-#: elementor/elements/work-process.php:292 elementor/elements/counter.php:146
-#: elementor/elements/locations-map.php:143
-#: elementor/elements/icon-box-styles.php:211
-#: elementor/elements/career-block.php:128 elementor/elements/logo.php:116
-#: elementor/elements/brand-hover.php:159
-#: elementor/elements/icon-box-group.php:154
-#: elementor/elements/services-group.php:154
-#: elementor/elements/image-content.php:206 elementor/elements/brand.php:115
-msgid "Link"
-msgstr ""
-
-#: elementor/elements/box-hover.php:152 elementor/elements/counter.php:148
-#: elementor/elements/career-block.php:130 elementor/elements/logo.php:118
-#: elementor/elements/brand-hover.php:160
-#: elementor/elements/icon-box-group.php:156
-#: elementor/elements/services-group.php:156
-#: elementor/elements/image-content.php:208
-#: elementor/elements/video-box.php:134 elementor/elements/brand.php:116
-msgid "https://your-link.com"
-msgstr ""
-
-#: elementor/elements/box-hover.php:160
-msgid "Content Item"
-msgstr ""
-
-#: elementor/elements/box-hover.php:208
-msgid "Box Height"
-msgstr ""
-
-#: elementor/elements/box-hover.php:228
-#: elementor/elements/video-carousel.php:157
-#: elementor/elements/testimonial.php:220
-#: elementor/elements/course-banner-group.php:281
-msgid "View"
-msgstr ""
-
-#: elementor/elements/box-hover.php:245 elementor/elements/cart.php:90
-#: elementor/elements/search-box.php:111 elementor/elements/search-box.php:119
-#: elementor/elements/search-box.php:134 elementor/elements/work-process.php:98
-#: elementor/elements/work-process.php:305
-#: elementor/elements/heading-block.php:246
-#: elementor/elements/heading-block.php:253 elementor/elements/counter.php:190
-#: elementor/elements/user.php:187 elementor/elements/icon-box-styles.php:112
-#: elementor/elements/icon-box-styles.php:287
-#: elementor/elements/course-banner-group.php:297
-#: elementor/elements/course-banner.php:204
-#: elementor/elements/icon-box-group.php:201
-#: elementor/elements/services-group.php:195
-#: elementor/elements/image-content.php:122
-#: elementor/elements/video-box.php:166
-msgid "Icon"
-msgstr ""
-
-#: elementor/elements/box-hover.php:252 elementor/elements/box-hover.php:263
-msgid "Icon Background Color"
-msgstr ""
-
-#: elementor/elements/box-hover.php:275 elementor/elements/work-process.php:368
-#: elementor/elements/icon-box-styles.php:350
-#: elementor/elements/course-banner-group.php:318
-#: elementor/elements/course-banner.php:225
-#: elementor/elements/icon-box-group.php:222
-#: elementor/elements/services-group.php:216
-#: elementor/elements/video-box.php:214
-msgid "Size"
-msgstr ""
-
-#: elementor/elements/box-hover.php:304
-msgid "Icon Border Radius"
-msgstr ""
-
-#: elementor/elements/box-hover.php:315 elementor/elements/box-hover.php:362
-#: elementor/elements/box-hover.php:408 elementor/elements/search-box.php:238
-#: elementor/elements/search-box.php:272
-#: elementor/elements/work-process.php:409 elementor/elements/countdown.php:190
-#: elementor/elements/icon-box-styles.php:242
-#: elementor/elements/course-banner-group.php:359
-#: elementor/elements/career-block.php:215
-#: elementor/elements/career-block.php:270
-#: elementor/elements/career-block.php:315 elementor/elements/logo.php:172
-#: elementor/elements/course-banner.php:266
-#: elementor/elements/icon-box-group.php:263
-#: elementor/elements/services-group.php:257
-#: elementor/elements/video-box.php:234
-msgid "Padding"
 msgstr ""
 
 #: elementor/elements/circle-progress.php:45
 msgid "LNX Circle Progress"
 msgstr ""
 
-#: elementor/elements/circle-progress.php:111
-msgid "Color EmptyFill"
+#: elementor/elements/circle-progress.php:105
+msgid "Projects Completed"
 msgstr ""
 
-#: elementor/elements/circle-progress.php:118 elementor/elements/cart.php:98
-#: elementor/elements/navigation-menu.php:191
-#: elementor/elements/navigation-menu.php:209
-#: elementor/elements/navigation-menu.php:227
-#: elementor/elements/navigation-menu.php:303
-#: elementor/elements/navigation-menu.php:341
-#: elementor/elements/search-box.php:192
-#: elementor/elements/work-process.php:488
-#: elementor/elements/work-process.php:521 elementor/elements/counter.php:295
-#: elementor/elements/counter.php:343 elementor/elements/user.php:259
-#: elementor/elements/user.php:339 elementor/elements/icon-box-styles.php:445
-#: elementor/elements/icon-box-styles.php:478
-#: elementor/elements/course-banner-group.php:410
-#: elementor/elements/course-banner-group.php:443
-#: elementor/elements/course-banner.php:317
-#: elementor/elements/course-banner.php:350
-#: elementor/elements/icon-box-group.php:314
-#: elementor/elements/icon-box-group.php:347
-#: elementor/elements/services-group.php:308
-#: elementor/elements/services-group.php:341
-#: elementor/elements/video-box.php:286 elementor/elements/video-box.php:318
-#: elementor/elements/posts.php:425
-msgid "Color"
+#: elementor/elements/circle-progress.php:111
+msgid "Color EmptyFill"
 msgstr ""
 
 #: elementor/elements/circle-progress.php:125
@@ -953,87 +1093,334 @@ msgstr ""
 msgid "Percentage Color"
 msgstr ""
 
-#: elementor/elements/learning.php:47
-msgid "LNX Continue Learning"
+#: elementor/elements/countdown.php:47
+msgid "LNX Countdown"
 msgstr ""
 
-#: elementor/elements/learning.php:145
-msgid "Course Per Page"
+#: elementor/elements/countdown.php:112
+msgid "Year"
 msgstr ""
 
-#: elementor/elements/learning.php:269
-msgid "Section Title"
+#: elementor/elements/countdown.php:115
+msgid "ex: 2019"
 msgstr ""
 
-#: elementor/elements/learning.php:392
-msgid "Learning Card Title"
+#: elementor/elements/countdown.php:122
+msgid "Month"
 msgstr ""
 
-#: elementor/elements/learning.php:399 elementor/elements/learning.php:499
-msgid "Learning Card Text Color"
+#: elementor/elements/countdown.php:125
+msgid "ex: 12"
 msgstr ""
 
-#: elementor/elements/learning.php:435
-msgid "Learning Card BG Color"
+#: elementor/elements/countdown.php:131
+msgid "Day"
 msgstr ""
 
-#: elementor/elements/learning.php:446
-msgid "Progress Bar"
+#: elementor/elements/countdown.php:134
+msgid "ex: 01"
 msgstr ""
 
-#: elementor/elements/learning.php:453
-msgid "Progress Bar Color"
+#: elementor/elements/countdown.php:140
+msgid "Hour"
 msgstr ""
 
-#: elementor/elements/learning.php:464
-msgid "Button BG Color"
+#: elementor/elements/countdown.php:143
+#: elementor/elements/countdown.php:152
+msgid "ex: 00"
 msgstr ""
 
-#: elementor/elements/learning.php:471
-msgid "Learning Button BG Color "
+#: elementor/elements/countdown.php:149
+msgid "Minutes"
 msgstr ""
 
-#: elementor/elements/learning.php:481
-msgid "Learning Button Text Color"
+#: elementor/elements/countdown.php:158
+#: elementor/elements/logo.php:125
+#: elementor/elements/navigation-menu.php:117
+#: elementor/elements/search-box.php:142
+#: elementor/elements/user.php:106
+msgid "Alignment"
 msgstr ""
 
-#: elementor/elements/learning.php:492
-msgid "Learning Lesson/Time"
+#: elementor/elements/countdown.php:162
+#: elementor/elements/course-banner.php:174
+#: elementor/elements/heading-block.php:172
+#: elementor/elements/heading-block.php:195
+#: elementor/elements/logo.php:129
+#: elementor/elements/navigation-menu.php:121
+#: elementor/elements/search-box.php:146
+#: elementor/elements/user.php:110
+msgid "Left"
 msgstr ""
 
-#: elementor/elements/learning.php:516 elementor/elements/learning.php:535
-msgid "Lession/Duration Spacing"
+#: elementor/elements/countdown.php:166
+#: elementor/elements/course-banner.php:178
+#: elementor/elements/heading-block.php:176
+#: elementor/elements/heading-block.php:199
+#: elementor/elements/logo.php:133
+#: elementor/elements/navigation-menu.php:125
+#: elementor/elements/search-box.php:150
+#: elementor/elements/user.php:114
+msgid "Center"
 msgstr ""
 
-#: elementor/elements/gallery.php:21
-msgid "LNX Gallery"
+#: elementor/elements/countdown.php:170
+#: elementor/elements/course-banner.php:182
+#: elementor/elements/heading-block.php:180
+#: elementor/elements/heading-block.php:203
+#: elementor/elements/logo.php:137
+#: elementor/elements/navigation-menu.php:129
+#: elementor/elements/search-box.php:154
+#: elementor/elements/user.php:118
+msgid "Right"
 msgstr ""
 
-#: elementor/elements/gallery.php:59 elementor/elements/events.php:94
-#: elementor/elements/portfolio.php:95 elementor/elements/slider-images.php:59
-#: elementor/elements/posts.php:94
-msgid "Query & Layout"
+#: elementor/elements/countdown.php:246
+#: elementor/elements/counter.php:245
+#: elementor/elements/counter.php:278
+#: elementor/elements/counter.php:326
+#: elementor/elements/course-banner-group.php:339
+#: elementor/elements/course-banner-group.php:390
+#: elementor/elements/course-banner.php:246
+#: elementor/elements/course-banner.php:297
+#: elementor/elements/icon-box-group.php:243
+#: elementor/elements/icon-box-group.php:294
+#: elementor/elements/icon-box-styles.php:371
+#: elementor/elements/icon-box-styles.php:424
+#: elementor/elements/services-group.php:237
+#: elementor/elements/services-group.php:288
+#: elementor/elements/video-box.php:191
+#: elementor/elements/video-box.php:266
+#: elementor/elements/video-box.php:345
+#: elementor/elements/work-process.php:467
+msgid "Spacing"
 msgstr ""
 
-#: elementor/elements/gallery.php:68 elementor/elements/testimonial.php:288
-#: elementor/elements/career-block.php:139
-#: elementor/elements/brand-hover.php:207
-#: elementor/elements/slider-images.php:68 elementor/elements/video-box.php:118
-#: elementor/elements/brand.php:179
-msgid "Image"
+#: elementor/elements/counter.php:46
+msgid "LNX Counter"
 msgstr ""
 
-#: elementor/elements/gallery.php:87
-msgid "Sub-Title"
+#: elementor/elements/counter.php:102
+msgid "Icon Class"
 msgstr ""
 
-#: elementor/elements/gallery.php:96 elementor/elements/testimonial.php:168
-#: elementor/elements/slider-images.php:79
-msgid "Testimonials Content Item"
+#: elementor/elements/counter.php:114
+msgid "Number"
 msgstr ""
 
-#: elementor/elements/gallery.php:165
-msgid "Gallery Style I"
+#: elementor/elements/counter.php:122
+msgid "Text Before Number"
+msgstr ""
+
+#: elementor/elements/counter.php:129
+msgid "Text After Number"
+msgstr ""
+
+#: elementor/elements/counter.php:136
+#: elementor/elements/icon-box-styles.php:138
+#: elementor/elements/work-process.php:207
+msgid "Title & Description"
+msgstr ""
+
+#: elementor/elements/counter.php:138
+#: elementor/elements/icon-box-styles.php:140
+#: elementor/elements/work-process.php:209
+msgid "This is the heading"
+msgstr ""
+
+#: elementor/elements/counter.php:154
+#: elementor/elements/icon-box-styles.php:174
+#: elementor/elements/work-process.php:228
+msgid "Title HTML Tag"
+msgstr ""
+
+#: elementor/elements/counter.php:177
+#: elementor/elements/course-banner-group.php:97
+#: elementor/elements/course-filter-form.php:110
+#: elementor/elements/heading-block.php:138
+#: elementor/elements/icon-box-group.php:116
+#: elementor/elements/icon-box-styles.php:101
+#: elementor/elements/image-content.php:99
+#: elementor/elements/video-box.php:109
+#: elementor/includes/overrides.php:234
+msgid "Style II"
+msgstr ""
+
+#: elementor/elements/counter.php:178
+#: elementor/elements/course-banner-group.php:98
+#: elementor/elements/course-filter-form.php:111
+#: elementor/elements/heading-block.php:139
+#: elementor/elements/icon-box-styles.php:102
+#: elementor/elements/image-content.php:100
+msgid "Style III"
+msgstr ""
+
+#: elementor/elements/counter.php:198
+#: elementor/elements/course-banner-group.php:305
+#: elementor/elements/course-banner.php:212
+#: elementor/elements/icon-box-group.php:209
+#: elementor/elements/icon-box-styles.php:298
+#: elementor/elements/pricing-block.php:329
+#: elementor/elements/services-group.php:203
+#: elementor/elements/work-process.php:316
+msgid "Icon Color"
+msgstr ""
+
+#: elementor/elements/counter.php:211
+#: elementor/elements/icon-box-styles.php:324
+#: elementor/elements/work-process.php:342
+msgid "Hover | Icon Color"
+msgstr ""
+
+#: elementor/elements/counter.php:224
+#: elementor/elements/search-box.php:171
+#: elementor/elements/user.php:238
+msgid "Icon Size"
+msgstr ""
+
+#: elementor/elements/counter.php:318
+#: elementor/elements/icon-box-styles.php:148
+msgid "Number Text"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:43
+msgid "LNX Course Banner Group"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:111
+msgid "Course Catgegory Taxonomy"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:112
+#: elementor/elements/course-banner.php:115
+msgid "Course Tag Taxonomy"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:124
+#: elementor/elements/course-banner.php:102
+msgid "Add your Title"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:132
+msgid "Category/Tag Course Slug"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:135
+msgid "Add term slug here"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:156
+msgid "Choose Icon (Optional of Style II)"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:168
+msgid "Sub Title (Optional of Style II)"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:170
+msgid "Add your Sub-Title"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:171
+msgid "46 hours course time"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:179
+msgid "Custom Link"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:181
+msgid "Add Your Custom Link"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:188
+msgid "Course Banner Content Item"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:194
+msgid "Art & Design"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:200
+msgid "Lifestyle"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:206
+msgid "Photography"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:212
+msgid "Marketing"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:218
+msgid "Business"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:251
+#: elementor/elements/course-banner.php:192
+msgid "Show number content"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:260
+msgid "Text Suffix"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:262
+msgid "Full Courses"
+msgstr ""
+
+#: elementor/elements/course-banner-group.php:272
+#: elementor/elements/course-banner.php:161
+#: elementor/elements/events.php:196
+#: elementor/elements/testimonial.php:296
+msgid "Image Size"
+msgstr ""
+
+#: elementor/elements/course-banner.php:42
+msgid "LNX Banner"
+msgstr ""
+
+#: elementor/elements/course-banner.php:89
+msgid "SubTitle"
+msgstr ""
+
+#: elementor/elements/course-banner.php:92
+msgid "Add your Sub Title"
+msgstr ""
+
+#: elementor/elements/course-banner.php:93
+msgid "Inside Europe"
+msgstr ""
+
+#: elementor/elements/course-banner.php:103
+msgid "Let have dinner"
+msgstr ""
+
+#: elementor/elements/course-banner.php:110
+msgid "Taxonomy"
+msgstr ""
+
+#: elementor/elements/course-banner.php:114
+msgid "Course Category Taxonomy"
+msgstr ""
+
+#: elementor/elements/course-banner.php:124
+#: elementor/elements/course-banner.php:134
+msgid "Region & Category Slug"
+msgstr ""
+
+#: elementor/elements/course-banner.php:127
+msgid "Term slug"
+msgstr ""
+
+#: elementor/elements/course-banner.php:151
+msgid "Link Custom"
+msgstr ""
+
+#: elementor/elements/course-banner.php:170
+#: elementor/elements/heading-block.php:168
+msgid "Alignment Text"
 msgstr ""
 
 #: elementor/elements/course-filter-form.php:47
@@ -1044,50 +1431,83 @@ msgstr ""
 msgid "Link Courses Page"
 msgstr ""
 
+#: elementor/elements/course-filter-form.php:129
+#: elementor/elements/course-filter.php:143
+msgid "Enable Search Keyword"
+msgstr ""
+
+#: elementor/elements/course-filter-form.php:140
+#: elementor/elements/course-filter.php:154
+msgid "Enable Search Category"
+msgstr ""
+
+#: elementor/elements/course-filter-form.php:151
+#: elementor/elements/course-filter.php:176
+msgid "Enable Search Level"
+msgstr ""
+
+#: elementor/elements/course-filter-form.php:161
+#: elementor/elements/course-filter.php:186
+msgid "Enable Search Price"
+msgstr ""
+
+#: elementor/elements/course-filter-form.php:171
+#: elementor/elements/course-filter.php:196
+msgid "Placeholder keyword input"
+msgstr ""
+
+#: elementor/elements/course-filter-form.php:173
+#: elementor/elements/course-filter.php:198
+#: elementor/templates/course-filter-form.php:35
+#: elementor/templates/course-filter/filters.php:35
+msgid "Search..."
+msgstr ""
+
+#: elementor/elements/course-filter-form.php:186
+#: elementor/elements/course-filter.php:211
+#: elementor/elements/course-filter.php:226
+msgid "Placeholder Category"
+msgstr ""
+
+#: elementor/elements/course-filter-form.php:188
+#: elementor/elements/course-filter.php:213
+msgid "All Categories"
+msgstr ""
+
+#: elementor/elements/course-filter-form.php:201
+#: elementor/elements/course-filter.php:241
+msgid "Placeholder Level"
+msgstr ""
+
+#: elementor/elements/course-filter-form.php:203
+#: elementor/elements/course-filter.php:243
+#: elementor/elements/course.php:206
+#: elementor/templates/course-filter/filters.php:76
+msgid "Level"
+msgstr ""
+
+#: elementor/elements/course-filter-form.php:215
+#: elementor/elements/course-filter.php:255
+msgid "Placeholder Price"
+msgstr ""
+
+#: elementor/elements/course-filter-form.php:217
+#: elementor/elements/course-filter.php:257
+#: elementor/elements/pricing-block.php:138
+#: elementor/templates/course-filter/filters.php:97
+msgid "Price"
+msgstr ""
+
+#: elementor/elements/course-filter-form.php:229
+#: elementor/elements/course-filter.php:268
+msgid "Enable Label Input"
+msgstr ""
+
 #: elementor/elements/course-filter-form.php:247
 #: elementor/elements/course-filter.php:378
-#: elementor/elements/heading-block.php:476 elementor/elements/course.php:361
+#: elementor/elements/course.php:361
+#: elementor/elements/heading-block.php:476
 msgid "Heading Element Space Bottom"
-msgstr ""
-
-#: elementor/elements/cart.php:46
-msgid "LNX Cart Box"
-msgstr ""
-
-#: elementor/elements/cart.php:109
-msgid "Number Color"
-msgstr ""
-
-#: elementor/elements/cart.php:119
-msgid "Number Background"
-msgstr ""
-
-#: elementor/elements/video-carousel.php:42
-msgid "LNX Video Carousel"
-msgstr ""
-
-#: elementor/elements/video-carousel.php:86
-msgid "Videos"
-msgstr ""
-
-#: elementor/elements/video-carousel.php:103
-#: elementor/elements/testimonial.php:129
-#: elementor/elements/locations-map.php:124
-#: elementor/elements/icon-box-styles.php:124
-#: elementor/elements/course-banner-group.php:141
-#: elementor/elements/brand-hover.php:137
-#: elementor/elements/course-banner.php:136
-#: elementor/elements/services-group.php:143
-#: elementor/elements/image-content.php:137 elementor/elements/brand.php:104
-msgid "Choose Image"
-msgstr ""
-
-#: elementor/elements/video-carousel.php:113
-msgid "Video Link"
-msgstr ""
-
-#: elementor/elements/video-carousel.php:123
-msgid "Video Content"
 msgstr ""
 
 #: elementor/elements/course-filter.php:47
@@ -1098,259 +1518,191 @@ msgstr ""
 msgid "Filter Style"
 msgstr ""
 
+#: elementor/elements/course-filter.php:109
+msgid "Filter Dropdow"
+msgstr ""
+
+#: elementor/elements/course-filter.php:110
+msgid "Filter List"
+msgstr ""
+
+#: elementor/elements/course-filter.php:122
+msgid "Filter Top"
+msgstr ""
+
+#: elementor/elements/course-filter.php:123
+msgid "Filter Left"
+msgstr ""
+
+#: elementor/elements/course-filter.php:124
+msgid "Filter Right"
+msgstr ""
+
 #: elementor/elements/course-filter.php:133
 msgid "Per Page"
 msgstr ""
 
-#: elementor/elements/navigation-menu.php:47
-msgid "LNX Navigation Menu"
+#: elementor/elements/course-filter.php:165
+msgid "Enable Search Tags"
 msgstr ""
 
-#: elementor/elements/navigation-menu.php:106
-msgid "Menu"
+#: elementor/elements/course-filter.php:228
+msgid "All Tags"
 msgstr ""
 
-#: elementor/elements/navigation-menu.php:117
-#: elementor/elements/search-box.php:142 elementor/elements/countdown.php:158
-#: elementor/elements/user.php:106 elementor/elements/logo.php:125
-msgid "Alignment"
+#: elementor/elements/course-filter.php:277
+msgid "Disable Order"
 msgstr ""
 
-#: elementor/elements/navigation-menu.php:121
-#: elementor/elements/search-box.php:146
-#: elementor/elements/heading-block.php:172
-#: elementor/elements/heading-block.php:195
-#: elementor/elements/countdown.php:162 elementor/elements/user.php:110
-#: elementor/elements/logo.php:129 elementor/elements/course-banner.php:174
-msgid "Left"
+#: elementor/elements/course-users.php:123
+#: elementor/elements/course.php:183
+msgid "Select Individually (IDs)"
 msgstr ""
 
-#: elementor/elements/navigation-menu.php:125
-#: elementor/elements/search-box.php:150
-#: elementor/elements/heading-block.php:176
-#: elementor/elements/heading-block.php:199
-#: elementor/elements/countdown.php:166 elementor/elements/user.php:114
-#: elementor/elements/logo.php:133 elementor/elements/course-banner.php:178
-msgid "Center"
+#: elementor/elements/course.php:47
+msgid "LNX Course"
 msgstr ""
 
-#: elementor/elements/navigation-menu.php:129
-#: elementor/elements/search-box.php:154
-#: elementor/elements/heading-block.php:180
-#: elementor/elements/heading-block.php:203
-#: elementor/elements/countdown.php:170 elementor/elements/user.php:118
-#: elementor/elements/logo.php:137 elementor/elements/course-banner.php:182
-msgid "Right"
+#: elementor/elements/course.php:142
+msgid "Item Course Style I"
 msgstr ""
 
-#: elementor/elements/navigation-menu.php:140
-msgid "Submenu Min Width (px)"
+#: elementor/elements/course.php:143
+msgid "Item Course Style II"
 msgstr ""
 
-#: elementor/elements/navigation-menu.php:163
-msgid "Main Menu"
+#: elementor/elements/course.php:144
+msgid "Item Course Style III"
 msgstr ""
 
-#: elementor/elements/navigation-menu.php:175
-#: elementor/elements/navigation-menu.php:287
-msgid "Normal"
+#: elementor/elements/course.php:193
+msgid "Price Type"
 msgstr ""
 
-#: elementor/elements/navigation-menu.php:203
-#: elementor/elements/navigation-menu.php:315
-msgid "Hover"
+#: elementor/elements/course.php:198
+#: elementor/templates/course-filter-form.php:9
+#: elementor/templates/course-filter/filters.php:9
+msgid "Free"
 msgstr ""
 
-#: elementor/elements/navigation-menu.php:221
-#: elementor/elements/navigation-menu.php:335
-#: elementor/elements/icon-box-styles.php:194
-#: elementor/elements/brand-hover.php:167
-#: elementor/elements/icon-box-group.php:163
-#: elementor/elements/icon-box-group.php:165
-msgid "Active"
+#: elementor/elements/course.php:199
+#: elementor/templates/course-filter-form.php:10
+#: elementor/templates/course-filter/filters.php:10
+msgid "Paid"
 msgstr ""
 
-#: elementor/elements/navigation-menu.php:241
-msgid "Top Line Color"
+#: elementor/elements/course.php:211
+#: elementor/templates/course-filter-form.php:4
+#: elementor/templates/course-filter/filters.php:4
+msgid "Beginner"
 msgstr ""
 
-#: elementor/elements/navigation-menu.php:260
-#: elementor/elements/navigation-menu.php:363 elementor/elements/user.php:368
-msgid "Menu Item Padding"
+#: elementor/elements/course.php:212
+#: elementor/templates/course-filter-form.php:5
+#: elementor/templates/course-filter/filters.php:5
+msgid "Intermediate"
 msgstr ""
 
-#: elementor/elements/navigation-menu.php:276
-msgid "Sub Menu"
+#: elementor/elements/course.php:213
+#: elementor/templates/course-filter-form.php:6
+#: elementor/templates/course-filter/filters.php:6
+msgid "Expert"
 msgstr ""
 
-#: elementor/elements/navigation-menu.php:322
-msgid "Link Color"
+#: elementor/elements/course.php:220
+msgid "Only show Course Featured"
 msgstr ""
 
-#: elementor/elements/map.php:47
-msgid "LNX Map"
+#: elementor/elements/course.php:228
+#: elementor/elements/events.php:125
+#: elementor/elements/portfolio.php:126
+#: elementor/elements/posts.php:187
+#: elementor/elements/teams.php:91
+msgid "Posts Per Page"
 msgstr ""
 
-#: elementor/elements/map.php:107 elementor/elements/work-process.php:210
-#: elementor/elements/heading-block.php:116
-#: elementor/elements/countdown.php:104 elementor/elements/counter.php:139
-#: elementor/elements/icon-box-styles.php:141
-#: elementor/elements/career-block.php:101 elementor/elements/logo.php:97
-#: elementor/elements/pricing-block.php:111
-#: elementor/elements/image-content.php:114
-msgid "Enter your title"
+#: elementor/elements/course.php:240
+#: elementor/elements/events.php:138
+#: elementor/elements/portfolio.php:139
+#: elementor/elements/posts.php:200
+#: elementor/elements/teams.php:104
+msgid "Date"
 msgstr ""
 
-#: elementor/elements/map.php:115
-msgid "Map Type"
+#: elementor/elements/course.php:242
+#: elementor/elements/portfolio.php:141
+#: elementor/elements/posts.php:202
+#: elementor/elements/teams.php:106
+msgid "Menu Order"
 msgstr ""
 
-#: elementor/elements/map.php:130
-msgid "Latitude, Longitude for map"
+#: elementor/elements/events.php:20
+msgid "LNX Events"
 msgstr ""
 
-#: elementor/elements/map.php:132 elementor/elements/locations-map.php:114
-msgid "Latitude, Longitude"
+#: elementor/elements/events.php:94
+#: elementor/elements/gallery.php:59
+#: elementor/elements/portfolio.php:95
+#: elementor/elements/posts.php:94
+#: elementor/elements/slider-images.php:59
+msgid "Query & Layout"
 msgstr ""
 
-#: elementor/elements/map.php:141
-msgid "Map height"
+#: elementor/elements/events.php:113
+#: elementor/elements/portfolio.php:114
+#: elementor/elements/posts.php:175
+#: elementor/elements/teams.php:79
+msgid "Select Individually"
 msgstr ""
 
-#: elementor/elements/map.php:143
-msgid "500px"
+#: elementor/elements/events.php:140
+msgid "Event Start Date"
 msgstr ""
 
-#: elementor/elements/search-box.php:46
-msgid "LNX Search Box"
+#: elementor/elements/events.php:185
+msgid "Event Item Style I"
 msgstr ""
 
-#: elementor/elements/search-box.php:100 elementor/elements/counter.php:176
-#: elementor/elements/icon-box-styles.php:100
-#: elementor/elements/video-box.php:108
-msgid "Style I"
+#: elementor/elements/gallery.php:21
+msgid "LNX Gallery"
 msgstr ""
 
-#: elementor/elements/search-box.php:171 elementor/elements/counter.php:224
-#: elementor/elements/user.php:238
-msgid "Icon Size"
+#: elementor/elements/gallery.php:80
+msgid "Luxury Interior"
 msgstr ""
 
-#: elementor/elements/search-box.php:204 elementor/elements/user.php:271
-#: elementor/elements/user.php:349
-msgid "Color Hover"
+#: elementor/elements/gallery.php:87
+msgid "Sub-Title"
 msgstr ""
 
-#: elementor/elements/search-box.php:216
-msgid "Background"
+#: elementor/elements/gallery.php:88
+msgid "Charity"
 msgstr ""
 
-#: elementor/elements/search-box.php:227
-msgid "Background Hover"
+#: elementor/elements/gallery.php:96
+#: elementor/elements/slider-images.php:79
+#: elementor/elements/testimonial.php:168
+msgid "Testimonials Content Item"
 msgstr ""
 
-#: elementor/elements/search-box.php:292
-msgid "Content Width"
+#: elementor/elements/gallery.php:105
+#: elementor/elements/gallery.php:112
+#: elementor/elements/gallery.php:119
+#: elementor/elements/gallery.php:126
+#: elementor/elements/gallery.php:133
+msgid "Lenxel Education"
 msgstr ""
 
-#: elementor/elements/work-process.php:47
-#: elementor/elements/work-process.php:91
-msgid "LNX Work Process"
+#: elementor/elements/gallery.php:106
+#: elementor/elements/gallery.php:113
+#: elementor/elements/gallery.php:120
+#: elementor/elements/gallery.php:127
+#: elementor/elements/gallery.php:134
+msgid "Learning"
 msgstr ""
 
-#: elementor/elements/work-process.php:139
-msgid "Box Size"
-msgstr ""
-
-#: elementor/elements/work-process.php:178
-msgid "Box Padding"
-msgstr ""
-
-#: elementor/elements/work-process.php:207 elementor/elements/counter.php:136
-#: elementor/elements/icon-box-styles.php:138
-msgid "Title & Description"
-msgstr ""
-
-#: elementor/elements/work-process.php:209 elementor/elements/counter.php:138
-#: elementor/elements/icon-box-styles.php:140
-msgid "This is the heading"
-msgstr ""
-
-#: elementor/elements/work-process.php:220
-#: elementor/elements/icon-box-styles.php:150
-msgid "01"
-msgstr ""
-
-#: elementor/elements/work-process.php:221
-msgid "Enter your number"
-msgstr ""
-
-#: elementor/elements/work-process.php:228 elementor/elements/counter.php:154
-#: elementor/elements/icon-box-styles.php:174
-msgid "Title HTML Tag"
-msgstr ""
-
-#: elementor/elements/work-process.php:250
-msgid "Line"
-msgstr ""
-
-#: elementor/elements/work-process.php:256
-msgid "Display Line Left"
-msgstr ""
-
-#: elementor/elements/work-process.php:264
-msgid "Display Line Right"
-msgstr ""
-
-#: elementor/elements/work-process.php:272
-msgid "Line Background"
-msgstr ""
-
-#: elementor/elements/work-process.php:316 elementor/elements/counter.php:198
-#: elementor/elements/icon-box-styles.php:298
-#: elementor/elements/course-banner-group.php:305
-#: elementor/elements/pricing-block.php:329
-#: elementor/elements/course-banner.php:212
-#: elementor/elements/icon-box-group.php:209
-#: elementor/elements/services-group.php:203
-msgid "Icon Color"
-msgstr ""
-
-#: elementor/elements/work-process.php:329
-#: elementor/elements/icon-box-styles.php:311
-msgid "Icon Background"
-msgstr ""
-
-#: elementor/elements/work-process.php:342 elementor/elements/counter.php:211
-#: elementor/elements/icon-box-styles.php:324
-msgid "Hover | Icon Color"
-msgstr ""
-
-#: elementor/elements/work-process.php:355
-#: elementor/elements/icon-box-styles.php:337
-msgid "Hover | Icon Background"
-msgstr ""
-
-#: elementor/elements/work-process.php:389
-msgid "Icon Box Width"
-msgstr ""
-
-#: elementor/elements/work-process.php:467 elementor/elements/countdown.php:246
-#: elementor/elements/counter.php:245 elementor/elements/counter.php:278
-#: elementor/elements/counter.php:326
-#: elementor/elements/icon-box-styles.php:371
-#: elementor/elements/icon-box-styles.php:424
-#: elementor/elements/course-banner-group.php:339
-#: elementor/elements/course-banner-group.php:390
-#: elementor/elements/course-banner.php:246
-#: elementor/elements/course-banner.php:297
-#: elementor/elements/icon-box-group.php:243
-#: elementor/elements/icon-box-group.php:294
-#: elementor/elements/services-group.php:237
-#: elementor/elements/services-group.php:288
-#: elementor/elements/video-box.php:191 elementor/elements/video-box.php:266
-#: elementor/elements/video-box.php:345
-msgid "Spacing"
+#: elementor/elements/gallery.php:165
+msgid "Gallery Style I"
 msgstr ""
 
 #: elementor/elements/heading-block.php:47
@@ -1361,25 +1713,9 @@ msgstr ""
 msgid "Enter your Sub Title"
 msgstr ""
 
-#: elementor/elements/heading-block.php:117
-#: elementor/elements/countdown.php:105 elementor/elements/career-block.php:102
-msgid "Add Your Heading Text Here"
-msgstr ""
-
 #: elementor/elements/heading-block.php:127
 #: elementor/elements/image-content.php:177
 msgid "Enter Your Description"
-msgstr ""
-
-#: elementor/elements/heading-block.php:148
-#: elementor/elements/career-block.php:109
-#: elementor/elements/image-content.php:187
-msgid "HTML Tag"
-msgstr ""
-
-#: elementor/elements/heading-block.php:168
-#: elementor/elements/course-banner.php:170
-msgid "Alignment Text"
 msgstr ""
 
 #: elementor/elements/heading-block.php:191
@@ -1400,11 +1736,6 @@ msgstr ""
 
 #: elementor/elements/heading-block.php:255
 msgid "Enable/Disable Icon Heading"
-msgstr ""
-
-#: elementor/elements/heading-block.php:263
-#: elementor/elements/career-block.php:145
-msgid "Icon Image"
 msgstr ""
 
 #: elementor/elements/heading-block.php:279
@@ -1443,8 +1774,40 @@ msgstr ""
 msgid "Button Style"
 msgstr ""
 
+#: elementor/elements/heading-block.php:330
+#: elementor/elements/pricing-block.php:230
+msgid "Button Theme"
+msgstr ""
+
+#: elementor/elements/heading-block.php:331
+#: elementor/elements/pricing-block.php:231
+msgid "Button Theme Second"
+msgstr ""
+
+#: elementor/elements/heading-block.php:332
+#: elementor/elements/pricing-block.php:232
+msgid "Button White"
+msgstr ""
+
+#: elementor/elements/heading-block.php:333
+#: elementor/elements/pricing-block.php:233
+msgid "Button Black"
+msgstr ""
+
 #: elementor/elements/heading-block.php:341
 msgid "Button Size"
+msgstr ""
+
+#: elementor/elements/heading-block.php:344
+msgid "Button Size Default"
+msgstr ""
+
+#: elementor/elements/heading-block.php:345
+msgid "Button Small"
+msgstr ""
+
+#: elementor/elements/heading-block.php:346
+msgid "Button Medium"
 msgstr ""
 
 #: elementor/elements/heading-block.php:354
@@ -1463,80 +1826,719 @@ msgstr ""
 msgid "Button Background Hover"
 msgstr ""
 
-#: elementor/elements/countdown.php:47
-msgid "LNX Countdown"
+#: elementor/elements/icon-box-group.php:42
+msgid "LNX Icon Box Group"
 msgstr ""
 
-#: elementor/elements/countdown.php:112
-msgid "Year"
+#: elementor/elements/icon-box-group.php:179
+msgid "Learn Skills"
 msgstr ""
 
-#: elementor/elements/countdown.php:115
-msgid "ex: 2019"
+#: elementor/elements/icon-box-group.php:182
+msgid "Expert Teachers"
 msgstr ""
 
-#: elementor/elements/countdown.php:122
-msgid "Month"
+#: elementor/elements/icon-box-group.php:185
+msgid "Certificates"
 msgstr ""
 
-#: elementor/elements/countdown.php:125
-msgid "ex: 12"
+#: elementor/elements/icon-box-styles.php:47
+msgid "LNX Icon Box Styles"
 msgstr ""
 
-#: elementor/elements/countdown.php:131
-msgid "Day"
+#: elementor/elements/icon-box-styles.php:90
+msgid "LNX Icon Box Style"
 msgstr ""
 
-#: elementor/elements/countdown.php:134
-msgid "ex: 01"
+#: elementor/elements/icon-box-styles.php:103
+#: elementor/elements/image-content.php:101
+msgid "Style IV"
 msgstr ""
 
-#: elementor/elements/countdown.php:140
-msgid "Hour"
+#: elementor/elements/icon-box-styles.php:150
+#: elementor/elements/work-process.php:220
+msgid "01"
 msgstr ""
 
-#: elementor/elements/countdown.php:143 elementor/elements/countdown.php:152
-msgid "ex: 00"
+#: elementor/elements/icon-box-styles.php:151
+msgid "Enter number text"
 msgstr ""
 
-#: elementor/elements/countdown.php:149
-msgid "Minutes"
+#: elementor/elements/icon-box-styles.php:162
+msgid "There are many new variations of pasages of available text."
 msgstr ""
 
-#: elementor/elements/counter.php:46
-msgid "LNX Counter"
+#: elementor/elements/icon-box-styles.php:163
+msgid "Enter your description"
 msgstr ""
 
-#: elementor/elements/counter.php:102
-msgid "Icon Class"
+#: elementor/elements/icon-box-styles.php:205
+msgid "Button & Link"
 msgstr ""
 
-#: elementor/elements/counter.php:114
-msgid "Number"
+#: elementor/elements/icon-box-styles.php:221
+#: elementor/elements/video-box.php:144
+msgid "Box Style"
 msgstr ""
 
-#: elementor/elements/counter.php:122
-msgid "Text Before Number"
+#: elementor/elements/icon-box-styles.php:262
+msgid "Min Height"
 msgstr ""
 
-#: elementor/elements/counter.php:129
-msgid "Text After Number"
+#: elementor/elements/icon-box-styles.php:311
+#: elementor/elements/work-process.php:329
+msgid "Icon Background"
 msgstr ""
 
-#: elementor/elements/counter.php:177
-#: elementor/elements/icon-box-styles.php:101
-#: elementor/elements/video-box.php:109
-msgid "Style II"
+#: elementor/elements/icon-box-styles.php:337
+#: elementor/elements/work-process.php:355
+msgid "Hover | Icon Background"
 msgstr ""
 
-#: elementor/elements/counter.php:178
-#: elementor/elements/icon-box-styles.php:102
-msgid "Style III"
+#: elementor/elements/image-content.php:46
+msgid "LNX Image Content"
 msgstr ""
 
-#: elementor/elements/counter.php:318
-#: elementor/elements/icon-box-styles.php:148
-msgid "Number Text"
+#: elementor/elements/image-content.php:102
+msgid "Style V"
+msgstr ""
+
+#: elementor/elements/image-content.php:103
+msgid "Style VI"
+msgstr ""
+
+#: elementor/elements/image-content.php:104
+msgid "Style VII"
+msgstr ""
+
+#: elementor/elements/image-content.php:115
+msgid "Trusted by 8800 customers"
+msgstr ""
+
+#: elementor/elements/image-content.php:149
+msgid "Choose Image Second"
+msgstr ""
+
+#: elementor/elements/image-content.php:216
+msgid "Text Link"
+msgstr ""
+
+#: elementor/elements/image-content.php:218
+#: elementor/elements/image-content.php:219
+#: elementor/templates/image-content.php:180
+#: elementor/templates/locations-map.php:37
+msgid "Read More"
+msgstr ""
+
+#: elementor/elements/image-content.php:254
+msgid "Second Color"
+msgstr ""
+
+#: elementor/elements/image-content.php:298
+#: elementor/elements/image-content.php:350
+msgid "Space Bottom"
+msgstr ""
+
+#: elementor/elements/learning.php:47
+msgid "LNX Continue Learning"
+msgstr ""
+
+#: elementor/elements/learning.php:145
+msgid "Course Per Page"
+msgstr ""
+
+#: elementor/elements/learning.php:269
+msgid "Section Title"
+msgstr ""
+
+#: elementor/elements/learning.php:392
+msgid "Learning Card Title"
+msgstr ""
+
+#: elementor/elements/learning.php:399
+#: elementor/elements/learning.php:499
+msgid "Learning Card Text Color"
+msgstr ""
+
+#: elementor/elements/learning.php:435
+msgid "Learning Card BG Color"
+msgstr ""
+
+#: elementor/elements/learning.php:446
+msgid "Progress Bar"
+msgstr ""
+
+#: elementor/elements/learning.php:453
+msgid "Progress Bar Color"
+msgstr ""
+
+#: elementor/elements/learning.php:464
+msgid "Button BG Color"
+msgstr ""
+
+#: elementor/elements/learning.php:471
+msgid "Learning Button BG Color "
+msgstr ""
+
+#: elementor/elements/learning.php:481
+msgid "Learning Button Text Color"
+msgstr ""
+
+#: elementor/elements/learning.php:492
+msgid "Learning Lesson/Time"
+msgstr ""
+
+#: elementor/elements/learning.php:516
+#: elementor/elements/learning.php:535
+msgid "Lession/Duration Spacing"
+msgstr ""
+
+#: elementor/elements/locations-map.php:43
+msgid "LNX Locations Map"
+msgstr ""
+
+#: elementor/elements/locations-map.php:88
+msgid "Locations Content"
+msgstr ""
+
+#: elementor/elements/locations-map.php:97
+msgid "Location Title"
+msgstr ""
+
+#: elementor/elements/locations-map.php:114
+#: elementor/elements/map.php:132
+msgid "Latitude, Longitude"
+msgstr ""
+
+#: elementor/elements/locations-map.php:118
+msgid "Latitude, Longitude for Map, eg: 21.0173222,105.78405279999993"
+msgstr ""
+
+#: elementor/elements/locations-map.php:151
+msgid "Location Content Item"
+msgstr ""
+
+#: elementor/elements/locations-map.php:157
+msgid "Singapore Office"
+msgstr ""
+
+#: elementor/elements/locations-map.php:160
+msgid "Bugis Junction Towers Singapore 188024"
+msgstr ""
+
+#: elementor/elements/locations-map.php:163
+msgid "Paris Office"
+msgstr ""
+
+#: elementor/elements/locations-map.php:166
+msgid "Office du Tourisme et des Congrès de Paris"
+msgstr ""
+
+#: elementor/elements/locations-map.php:169
+msgid "New York Office"
+msgstr ""
+
+#: elementor/elements/locations-map.php:172
+msgid "2 Queen Street,California, USA"
+msgstr ""
+
+#: elementor/elements/locations-map.php:194
+msgid "Box Background"
+msgstr ""
+
+#: elementor/elements/logo.php:46
+msgid "LNX Logo"
+msgstr ""
+
+#: elementor/elements/logo.php:98
+msgid "Home"
+msgstr ""
+
+#: elementor/elements/logo.php:105
+msgid "Choose Logo Image"
+msgstr ""
+
+#: elementor/elements/logo.php:147
+msgid "Max Width"
+msgstr ""
+
+#: elementor/elements/logo.php:165
+msgid "Logo Styling"
+msgstr ""
+
+#: elementor/elements/logo.php:183
+msgid "Margin"
+msgstr ""
+
+#: elementor/elements/map.php:47
+msgid "LNX Map"
+msgstr ""
+
+#: elementor/elements/map.php:115
+msgid "Map Type"
+msgstr ""
+
+#: elementor/elements/map.php:118
+msgid "ROADMAP"
+msgstr ""
+
+#: elementor/elements/map.php:119
+msgid "HYBRID"
+msgstr ""
+
+#: elementor/elements/map.php:120
+msgid "SATELLITE"
+msgstr ""
+
+#: elementor/elements/map.php:121
+msgid "TERRAIN"
+msgstr ""
+
+#: elementor/elements/map.php:130
+msgid "Latitude, Longitude for map"
+msgstr ""
+
+#: elementor/elements/map.php:133
+msgid "eg: 21.0173222,105.78405279999993"
+msgstr ""
+
+#: elementor/elements/map.php:141
+msgid "Map height"
+msgstr ""
+
+#: elementor/elements/map.php:143
+msgid "500px"
+msgstr ""
+
+#: elementor/elements/map.php:145
+msgid "Enter map height (in pixels or leave empty for responsive map), eg: 400px"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:47
+msgid "LNX Navigation Menu"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:106
+msgid "Menu"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:140
+msgid "Submenu Min Width (px)"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:163
+msgid "Main Menu"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:175
+#: elementor/elements/navigation-menu.php:287
+msgid "Normal"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:203
+#: elementor/elements/navigation-menu.php:315
+msgid "Hover"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:241
+msgid "Top Line Color"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:260
+#: elementor/elements/navigation-menu.php:363
+#: elementor/elements/user.php:368
+msgid "Menu Item Padding"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:276
+msgid "Sub Menu"
+msgstr ""
+
+#: elementor/elements/navigation-menu.php:322
+msgid "Link Color"
+msgstr ""
+
+#: elementor/elements/portfolio.php:20
+msgid "LNX Portfolio"
+msgstr ""
+
+#: elementor/elements/portfolio.php:186
+msgid "Item Portfolio Style I"
+msgstr ""
+
+#: elementor/elements/portfolio.php:187
+msgid "Item Portfolio Style II"
+msgstr ""
+
+#: elementor/elements/portfolio.php:206
+msgid "Isotope Filter"
+msgstr ""
+
+#: elementor/elements/posts.php:20
+msgid "LNX Posts"
+msgstr ""
+
+#: elementor/elements/posts.php:115
+msgid "Small List"
+msgstr ""
+
+#: elementor/elements/posts.php:116
+msgid "Post Large & List"
+msgstr ""
+
+#: elementor/elements/posts.php:127
+msgid "Item Post Style I"
+msgstr ""
+
+#: elementor/elements/posts.php:128
+msgid "Item Post Style II"
+msgstr ""
+
+#: elementor/elements/posts.php:147
+msgid "Excerpt Words"
+msgstr ""
+
+#: elementor/elements/posts.php:243
+msgid "Right List Posts Style"
+msgstr ""
+
+#: elementor/elements/posts.php:254
+msgid "Padding List Posts"
+msgstr ""
+
+#: elementor/elements/posts.php:266
+msgid "Background List Posts"
+msgstr ""
+
+#: elementor/elements/posts.php:278
+msgid "List Posts Title Color"
+msgstr ""
+
+#: elementor/elements/posts.php:298
+#: elementor/elements/posts.php:398
+msgid "List Posts Meta Color"
+msgstr ""
+
+#: elementor/elements/posts.php:313
+msgid "Post Content"
+msgstr ""
+
+#: elementor/elements/posts.php:324
+msgid "Padding Post Content"
+msgstr ""
+
+#: elementor/elements/posts.php:336
+msgid "Background Post Content"
+msgstr ""
+
+#: elementor/elements/posts.php:351
+msgid "Post Title"
+msgstr ""
+
+#: elementor/elements/posts.php:362
+msgid "Color Title"
+msgstr ""
+
+#: elementor/elements/posts.php:375
+msgid "Color Title Hover"
+msgstr ""
+
+#: elementor/elements/posts.php:414
+msgid "Post Description"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:48
+msgid "LNX Pricing Block"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:100
+msgid "Style I: Default"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:101
+msgid "Style II: Scale 0.95"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:112
+msgid "Standard"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:121
+#: elementor/elements/pricing-block.php:122
+msgid "Private amenities"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:131
+msgid "Your Description"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:132
+msgid "There are many new variatns of pasages of available text."
+msgstr ""
+
+#: elementor/elements/pricing-block.php:140
+#: elementor/elements/pricing-block.php:141
+msgid "60.00"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:147
+#: elementor/elements/pricing-block.php:149
+msgid "Currency"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:150
+msgid "$"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:156
+msgid "Period"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:158
+#: elementor/elements/pricing-block.php:159
+msgid "Monthly"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:167
+#: elementor/elements/pricing-block.php:177
+msgid "Pricing Features"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:183
+msgid "3D Visualization"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:186
+msgid "Planning Solution"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:189
+msgid "Selection of Materials"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:192
+msgid "10 Construction Drawings"
+msgstr ""
+
+#: elementor/elements/pricing-block.php:273
+msgid "Price Text"
+msgstr ""
+
+#: elementor/elements/rev-slider.php:37
+msgid "LNX Revolution Slider"
+msgstr ""
+
+#: elementor/elements/rev-slider.php:77
+msgid "No sliders found"
+msgstr ""
+
+#: elementor/elements/rev-slider.php:89
+msgid "Choose Slider:"
+msgstr ""
+
+#: elementor/elements/search-box.php:46
+msgid "LNX Search Box"
+msgstr ""
+
+#: elementor/elements/search-box.php:204
+#: elementor/elements/user.php:271
+#: elementor/elements/user.php:349
+msgid "Color Hover"
+msgstr ""
+
+#: elementor/elements/search-box.php:216
+msgid "Background"
+msgstr ""
+
+#: elementor/elements/search-box.php:227
+msgid "Background Hover"
+msgstr ""
+
+#: elementor/elements/search-box.php:292
+msgid "Content Width"
+msgstr ""
+
+#: elementor/elements/services-group.php:43
+msgid "LNX Services Group"
+msgstr ""
+
+#: elementor/elements/services-group.php:164
+msgid "Service Content Item"
+msgstr ""
+
+#: elementor/elements/services-group.php:170
+msgid "About Lenxel"
+msgstr ""
+
+#: elementor/elements/services-group.php:173
+msgid "VR Teachnology"
+msgstr ""
+
+#: elementor/elements/services-group.php:176
+msgid "Partner International"
+msgstr ""
+
+#: elementor/elements/services-group.php:179
+msgid "Professional Team"
+msgstr ""
+
+#: elementor/elements/slider-images.php:21
+msgid "LNX Slider Images"
+msgstr ""
+
+#: elementor/elements/slider-images.php:88
+#: elementor/elements/slider-images.php:94
+msgid "The New Future of architecture"
+msgstr ""
+
+#: elementor/elements/teams.php:21
+msgid "LNX Teams"
+msgstr ""
+
+#: elementor/elements/teams.php:72
+msgid "Teams Query"
+msgstr ""
+
+#: elementor/elements/teams.php:152
+msgid "LNX Team Style"
+msgstr ""
+
+#: elementor/elements/teams.php:170
+msgid "Show Skills"
+msgstr ""
+
+#: elementor/elements/teams.php:259
+#: elementor/elements/testimonial.php:150
+#: elementor/elements/testimonial.php:389
+msgid "Job"
+msgstr ""
+
+#: elementor/elements/teams.php:289
+msgid "Social"
+msgstr ""
+
+#: elementor/elements/teams.php:297
+msgid "Social Size"
+msgstr ""
+
+#: elementor/elements/teams.php:317
+msgid "Social Color"
+msgstr ""
+
+#: elementor/elements/teams.php:329
+msgid "Social Hover Color"
+msgstr ""
+
+#: elementor/elements/teams.php:343
+msgid "Team Styling"
+msgstr ""
+
+#: elementor/elements/teams.php:350
+msgid "Team Padding Spacing"
+msgstr ""
+
+#: elementor/elements/teams.php:368
+msgid "Team Image Border Radius"
+msgstr ""
+
+#: elementor/elements/teams.php:380
+msgid "Background Name/Job Color"
+msgstr ""
+
+#: elementor/elements/teams.php:391
+msgid "General Background Color"
+msgstr ""
+
+#: elementor/elements/testimonial.php:43
+msgid "LNX Testimonials"
+msgstr ""
+
+#: elementor/elements/testimonial.php:89
+msgid "Testimonials"
+msgstr ""
+
+#: elementor/elements/testimonial.php:99
+msgid "Carousel Style 1"
+msgstr ""
+
+#: elementor/elements/testimonial.php:100
+msgid "Carousel Style 2"
+msgstr ""
+
+#: elementor/elements/testimonial.php:101
+msgid "Carousel Style 3"
+msgstr ""
+
+#: elementor/elements/testimonial.php:102
+msgid "Carousel Style 4"
+msgstr ""
+
+#: elementor/elements/testimonial.php:159
+msgid "Rating"
+msgstr ""
+
+#: elementor/elements/testimonial.php:174
+#: elementor/elements/testimonial.php:181
+#: elementor/elements/testimonial.php:188
+#: elementor/elements/testimonial.php:195
+msgid "Amazing Courses"
+msgstr ""
+
+#: elementor/elements/testimonial.php:175
+#: elementor/elements/testimonial.php:182
+#: elementor/elements/testimonial.php:189
+#: elementor/elements/testimonial.php:196
+msgid "Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: elementor/elements/testimonial.php:176
+msgid "Christine Eve"
+msgstr ""
+
+#: elementor/elements/testimonial.php:177
+#: elementor/elements/testimonial.php:191
+msgid "Founder & CEO"
+msgstr ""
+
+#: elementor/elements/testimonial.php:178
+#: elementor/elements/testimonial.php:185
+#: elementor/elements/testimonial.php:192
+#: elementor/elements/testimonial.php:199
+msgid "1"
+msgstr ""
+
+#: elementor/elements/testimonial.php:183
+msgid "Kevin Smith"
+msgstr ""
+
+#: elementor/elements/testimonial.php:184
+#: elementor/elements/testimonial.php:198
+msgid "Customer"
+msgstr ""
+
+#: elementor/elements/testimonial.php:190
+msgid "Jessica Brown"
+msgstr ""
+
+#: elementor/elements/testimonial.php:197
+msgid "David Anderson"
+msgstr ""
+
+#: elementor/elements/testimonial.php:266
+msgid "Content Padding"
+msgstr ""
+
+#: elementor/elements/testimonial.php:367
+msgid "Name Padding"
+msgstr ""
+
+#: elementor/elements/testimonial.php:417
+msgid "Job Padding"
+msgstr ""
+
+#: elementor/elements/testimonial.php:438
+#: elementor/elements/testimonial.php:446
+msgid "Grouped Content Spacing"
 msgstr ""
 
 #: elementor/elements/user.php:47
@@ -1587,525 +2589,6 @@ msgstr ""
 msgid "Account Menu"
 msgstr ""
 
-#: elementor/elements/events.php:20
-msgid "LNX Events"
-msgstr ""
-
-#: elementor/elements/events.php:113 elementor/elements/portfolio.php:114
-#: elementor/elements/posts.php:175 elementor/elements/teams.php:79
-msgid "Select Individually"
-msgstr ""
-
-#: elementor/elements/events.php:125 elementor/elements/portfolio.php:126
-#: elementor/elements/course.php:228 elementor/elements/posts.php:187
-#: elementor/elements/teams.php:91
-msgid "Posts Per Page"
-msgstr ""
-
-#: elementor/elements/events.php:138 elementor/elements/portfolio.php:139
-#: elementor/elements/course.php:240 elementor/elements/posts.php:200
-#: elementor/elements/teams.php:104
-msgid "Date"
-msgstr ""
-
-#: elementor/elements/events.php:140
-msgid "Event Start Date"
-msgstr ""
-
-#: elementor/elements/events.php:185
-msgid "Event Item Style I"
-msgstr ""
-
-#: elementor/elements/events.php:196 elementor/elements/testimonial.php:296
-#: elementor/elements/course-banner-group.php:272
-#: elementor/elements/course-banner.php:161
-msgid "Image Size"
-msgstr ""
-
-#: elementor/elements/testimonial.php:43
-msgid "LNX Testimonials"
-msgstr ""
-
-#: elementor/elements/testimonial.php:89
-msgid "Testimonials"
-msgstr ""
-
-#: elementor/elements/testimonial.php:150
-#: elementor/elements/testimonial.php:389 elementor/elements/teams.php:259
-msgid "Job"
-msgstr ""
-
-#: elementor/elements/testimonial.php:159
-msgid "Rating"
-msgstr ""
-
-#: elementor/elements/testimonial.php:266
-msgid "Content Padding"
-msgstr ""
-
-#: elementor/elements/testimonial.php:367
-msgid "Name Padding"
-msgstr ""
-
-#: elementor/elements/testimonial.php:417
-msgid "Job Padding"
-msgstr ""
-
-#: elementor/elements/testimonial.php:438
-#: elementor/elements/testimonial.php:446
-msgid "Grouped Content Spacing"
-msgstr ""
-
-#: elementor/elements/locations-map.php:43
-msgid "LNX Locations Map"
-msgstr ""
-
-#: elementor/elements/locations-map.php:88
-msgid "Locations Content"
-msgstr ""
-
-#: elementor/elements/locations-map.php:97
-msgid "Location Title"
-msgstr ""
-
-#: elementor/elements/locations-map.php:134
-#: elementor/elements/career-block.php:180
-msgid "Address"
-msgstr ""
-
-#: elementor/elements/locations-map.php:151
-msgid "Location Content Item"
-msgstr ""
-
-#: elementor/elements/locations-map.php:194
-msgid "Box Background"
-msgstr ""
-
-#: elementor/elements/icon-box-styles.php:47
-msgid "LNX Icon Box Styles"
-msgstr ""
-
-#: elementor/elements/icon-box-styles.php:90
-msgid "LNX Icon Box Style"
-msgstr ""
-
-#: elementor/elements/icon-box-styles.php:103
-msgid "Style IV"
-msgstr ""
-
-#: elementor/elements/icon-box-styles.php:151
-msgid "Enter number text"
-msgstr ""
-
-#: elementor/elements/icon-box-styles.php:162
-msgid "There are many new variations of pasages of available text."
-msgstr ""
-
-#: elementor/elements/icon-box-styles.php:163
-msgid "Enter your description"
-msgstr ""
-
-#: elementor/elements/icon-box-styles.php:205
-msgid "Button & Link"
-msgstr ""
-
-#: elementor/elements/icon-box-styles.php:221
-#: elementor/elements/video-box.php:144
-msgid "Box Style"
-msgstr ""
-
-#: elementor/elements/icon-box-styles.php:262
-msgid "Min Height"
-msgstr ""
-
-#: elementor/elements/course-banner-group.php:43
-msgid "LNX Course Banner Group"
-msgstr ""
-
-#: elementor/elements/course-banner-group.php:132
-msgid "Category/Tag Course Slug"
-msgstr ""
-
-#: elementor/elements/course-banner-group.php:135
-msgid "Add term slug here"
-msgstr ""
-
-#: elementor/elements/course-banner-group.php:156
-msgid "Choose Icon (Optional of Style II)"
-msgstr ""
-
-#: elementor/elements/course-banner-group.php:168
-msgid "Sub Title (Optional of Style II)"
-msgstr ""
-
-#: elementor/elements/course-banner-group.php:179
-msgid "Custom Link"
-msgstr ""
-
-#: elementor/elements/course-banner-group.php:188
-msgid "Course Banner Content Item"
-msgstr ""
-
-#: elementor/elements/course-banner-group.php:251
-#: elementor/elements/course-banner.php:192
-msgid "Show number content"
-msgstr ""
-
-#: elementor/elements/course-banner-group.php:260
-msgid "Text Suffix"
-msgstr ""
-
-#: elementor/elements/career-block.php:47
-msgid "LNX Career Block"
-msgstr ""
-
-#: elementor/elements/career-block.php:164
-#: elementor/elements/career-block.php:236
-msgid "Job Type"
-msgstr ""
-
-#: elementor/elements/career-block.php:172
-msgid "Company"
-msgstr ""
-
-#: elementor/elements/career-block.php:291
-msgid "Information (Address & Company)"
-msgstr ""
-
-#: elementor/elements/rev-slider.php:37
-msgid "LNX Revolution Slider"
-msgstr ""
-
-#: elementor/elements/rev-slider.php:77
-msgid "No sliders found"
-msgstr ""
-
-#: elementor/elements/rev-slider.php:89
-msgid "Choose Slider:"
-msgstr ""
-
-#: elementor/elements/portfolio.php:20
-msgid "LNX Portfolio"
-msgstr ""
-
-#: elementor/elements/portfolio.php:141 elementor/elements/course.php:242
-#: elementor/elements/posts.php:202 elementor/elements/teams.php:106
-msgid "Menu Order"
-msgstr ""
-
-#: elementor/elements/portfolio.php:186
-msgid "Item Portfolio Style I"
-msgstr ""
-
-#: elementor/elements/portfolio.php:187
-msgid "Item Portfolio Style II"
-msgstr ""
-
-#: elementor/elements/portfolio.php:206
-msgid "Isotope Filter"
-msgstr ""
-
-#: elementor/elements/logo.php:46
-msgid "LNX Logo"
-msgstr ""
-
-#: elementor/elements/logo.php:98
-msgid "Home"
-msgstr ""
-
-#: elementor/elements/logo.php:105
-msgid "Choose Logo Image"
-msgstr ""
-
-#: elementor/elements/logo.php:147
-msgid "Max Width"
-msgstr ""
-
-#: elementor/elements/logo.php:165
-msgid "Logo Styling"
-msgstr ""
-
-#: elementor/elements/logo.php:183
-msgid "Margin"
-msgstr ""
-
-#: elementor/elements/course.php:47
-msgid "LNX Course"
-msgstr ""
-
-#: elementor/elements/course.php:142
-msgid "Item Course Style I"
-msgstr ""
-
-#: elementor/elements/course.php:143
-msgid "Item Course Style II"
-msgstr ""
-
-#: elementor/elements/course.php:144
-msgid "Item Course Style III"
-msgstr ""
-
-#: elementor/elements/course.php:193
-msgid "Price Type"
-msgstr ""
-
-#: elementor/elements/course.php:198
-#: elementor/templates/course-filter/filters.php:9
-#: elementor/templates/course-filter-form.php:9
-msgid "Free"
-msgstr ""
-
-#: elementor/elements/course.php:199
-#: elementor/templates/course-filter/filters.php:10
-#: elementor/templates/course-filter-form.php:10
-msgid "Paid"
-msgstr ""
-
-#: elementor/elements/course.php:206
-#: elementor/templates/course-filter/filters.php:76
-msgid "Level"
-msgstr ""
-
-#: elementor/elements/course.php:211
-#: elementor/templates/course-filter/filters.php:4
-#: elementor/templates/course-filter-form.php:4
-msgid "Beginner"
-msgstr ""
-
-#: elementor/elements/course.php:212
-#: elementor/templates/course-filter/filters.php:5
-#: elementor/templates/course-filter-form.php:5
-msgid "Intermediate"
-msgstr ""
-
-#: elementor/elements/course.php:213
-#: elementor/templates/course-filter/filters.php:6
-#: elementor/templates/course-filter-form.php:6
-msgid "Expert"
-msgstr ""
-
-#: elementor/elements/course.php:220
-msgid "Only show Course Featured"
-msgstr ""
-
-#: elementor/elements/pricing-block.php:48
-msgid "LNX Pricing Block"
-msgstr ""
-
-#: elementor/elements/pricing-block.php:100
-msgid "Style I: Default"
-msgstr ""
-
-#: elementor/elements/pricing-block.php:101
-msgid "Style II: Scale 0.95"
-msgstr ""
-
-#: elementor/elements/pricing-block.php:112
-msgid "Standard"
-msgstr ""
-
-#: elementor/elements/pricing-block.php:121
-#: elementor/elements/pricing-block.php:122
-msgid "Private amenities"
-msgstr ""
-
-#: elementor/elements/pricing-block.php:131
-msgid "Your Description"
-msgstr ""
-
-#: elementor/elements/pricing-block.php:132
-msgid "There are many new variatns of pasages of available text."
-msgstr ""
-
-#: elementor/elements/pricing-block.php:138
-#: elementor/templates/course-filter/filters.php:97
-msgid "Price"
-msgstr ""
-
-#: elementor/elements/pricing-block.php:140
-#: elementor/elements/pricing-block.php:141
-msgid "60.00"
-msgstr ""
-
-#: elementor/elements/pricing-block.php:147
-#: elementor/elements/pricing-block.php:149
-msgid "Currency"
-msgstr ""
-
-#: elementor/elements/pricing-block.php:150
-msgid "$"
-msgstr ""
-
-#: elementor/elements/pricing-block.php:156
-msgid "Period"
-msgstr ""
-
-#: elementor/elements/pricing-block.php:158
-#: elementor/elements/pricing-block.php:159
-msgid "Monthly"
-msgstr ""
-
-#: elementor/elements/pricing-block.php:167
-#: elementor/elements/pricing-block.php:177
-msgid "Pricing Features"
-msgstr ""
-
-#: elementor/elements/pricing-block.php:273
-msgid "Price Text"
-msgstr ""
-
-#: elementor/elements/brand-hover.php:43
-msgid "LNX Brand Hover"
-msgstr ""
-
-#: elementor/elements/brand-hover.php:148
-msgid "Choose Image Hover"
-msgstr ""
-
-#: elementor/elements/brand-hover.php:175
-#: elementor/elements/icon-box-group.php:173 elementor/elements/brand.php:124
-msgid "Brand Content Item"
-msgstr ""
-
-#: elementor/elements/base.php:22
-msgid "Carousel Options"
-msgstr ""
-
-#: elementor/elements/base.php:32 elementor/elements/base.php:204
-msgid "Columns for Large Screen"
-msgstr ""
-
-#: elementor/elements/base.php:42 elementor/elements/base.php:214
-msgid "Columns for Medium Screen"
-msgstr ""
-
-#: elementor/elements/base.php:52 elementor/elements/base.php:224
-msgid "Columns for Small Screen"
-msgstr ""
-
-#: elementor/elements/base.php:62 elementor/elements/base.php:234
-msgid "Columns for Extra Small Screen"
-msgstr ""
-
-#: elementor/elements/base.php:71 elementor/elements/base.php:244
-msgid "Columns for Very Extra Small Screen"
-msgstr ""
-
-#: elementor/elements/base.php:82
-msgid "Loop"
-msgstr ""
-
-#: elementor/elements/base.php:91
-msgid "Speed"
-msgstr ""
-
-#: elementor/elements/base.php:100
-msgid "Auto Play"
-msgstr ""
-
-#: elementor/elements/base.php:109
-msgid "Auto Play Timeout"
-msgstr ""
-
-#: elementor/elements/base.php:118
-msgid "Auto Play Speed"
-msgstr ""
-
-#: elementor/elements/base.php:127
-msgid "Play Hover"
-msgstr ""
-
-#: elementor/elements/base.php:136
-msgid "Navigation"
-msgstr ""
-
-#: elementor/elements/base.php:154
-msgid "Mouse Drag"
-msgstr ""
-
-#: elementor/elements/base.php:163
-msgid "Touch Drag"
-msgstr ""
-
-#: elementor/elements/base.php:171
-msgid "Dots Spacing"
-msgstr ""
-
-#: elementor/elements/base.php:195
-msgid "Grid Options"
-msgstr ""
-
-#: elementor/elements/base.php:254
-msgid "Remove Padding"
-msgstr ""
-
-#: elementor/elements/course-banner.php:42
-msgid "LNX Banner"
-msgstr ""
-
-#: elementor/elements/course-banner.php:89
-msgid "SubTitle"
-msgstr ""
-
-#: elementor/elements/course-banner.php:110
-msgid "Taxonomy"
-msgstr ""
-
-#: elementor/elements/course-banner.php:124
-#: elementor/elements/course-banner.php:134
-msgid "Region & Category Slug"
-msgstr ""
-
-#: elementor/elements/course-banner.php:151
-msgid "Link Custom"
-msgstr ""
-
-#: elementor/elements/icon-box-group.php:42
-msgid "LNX Icon Box Group"
-msgstr ""
-
-#: elementor/elements/slider-images.php:21
-msgid "LNX Slider Images"
-msgstr ""
-
-#: elementor/elements/services-group.php:43
-msgid "LNX Services Group"
-msgstr ""
-
-#: elementor/elements/services-group.php:164
-msgid "Service Content Item"
-msgstr ""
-
-#: elementor/elements/image-content.php:46
-msgid "LNX Image Content"
-msgstr ""
-
-#: elementor/elements/image-content.php:115
-msgid "Trusted by 8800 customers"
-msgstr ""
-
-#: elementor/elements/image-content.php:149
-msgid "Choose Image Second"
-msgstr ""
-
-#: elementor/elements/image-content.php:216
-msgid "Text Link"
-msgstr ""
-
-#: elementor/elements/image-content.php:218
-#: elementor/elements/image-content.php:219
-msgid "Read More"
-msgstr ""
-
-#: elementor/elements/image-content.php:254
-msgid "Second Color"
-msgstr ""
-
-#: elementor/elements/image-content.php:298
-#: elementor/elements/image-content.php:350
-msgid "Space Bottom"
-msgstr ""
-
 #: elementor/elements/video-box.php:46
 msgid "LNX Video Box"
 msgstr ""
@@ -2122,693 +2605,234 @@ msgstr ""
 msgid "Link Video (Youtube/Vimeo)"
 msgstr ""
 
-#: elementor/elements/posts.php:20
-msgid "LNX Posts"
+#: elementor/elements/video-carousel.php:42
+msgid "LNX Video Carousel"
 msgstr ""
 
-#: elementor/elements/posts.php:115
-msgid "Small List"
+#: elementor/elements/video-carousel.php:86
+msgid "Videos"
 msgstr ""
 
-#: elementor/elements/posts.php:116
-msgid "Post Large & List"
+#: elementor/elements/video-carousel.php:113
+msgid "Video Link"
 msgstr ""
 
-#: elementor/elements/posts.php:127
-msgid "Item Post Style I"
+#: elementor/elements/video-carousel.php:116
+msgid "You can add youtube/vimeo video link"
 msgstr ""
 
-#: elementor/elements/posts.php:128
-msgid "Item Post Style II"
+#: elementor/elements/video-carousel.php:123
+msgid "Video Content"
 msgstr ""
 
-#: elementor/elements/posts.php:147
-msgid "Excerpt Words"
+#: elementor/elements/work-process.php:47
+#: elementor/elements/work-process.php:91
+msgid "LNX Work Process"
 msgstr ""
 
-#: elementor/elements/posts.php:243
-msgid "Right List Posts Style"
+#: elementor/elements/work-process.php:139
+msgid "Box Size"
 msgstr ""
 
-#: elementor/elements/posts.php:254
-msgid "Padding List Posts"
+#: elementor/elements/work-process.php:178
+msgid "Box Padding"
 msgstr ""
 
-#: elementor/elements/posts.php:266
-msgid "Background List Posts"
+#: elementor/elements/work-process.php:221
+msgid "Enter your number"
 msgstr ""
 
-#: elementor/elements/posts.php:278
-msgid "List Posts Title Color"
+#: elementor/elements/work-process.php:250
+msgid "Line"
 msgstr ""
 
-#: elementor/elements/posts.php:298 elementor/elements/posts.php:398
-msgid "List Posts Meta Color"
+#: elementor/elements/work-process.php:256
+msgid "Display Line Left"
 msgstr ""
 
-#: elementor/elements/posts.php:313
-msgid "Post Content"
+#: elementor/elements/work-process.php:264
+msgid "Display Line Right"
 msgstr ""
 
-#: elementor/elements/posts.php:324
-msgid "Padding Post Content"
+#: elementor/elements/work-process.php:272
+msgid "Line Background"
 msgstr ""
 
-#: elementor/elements/posts.php:336
-msgid "Background Post Content"
+#: elementor/elements/work-process.php:389
+msgid "Icon Box Width"
 msgstr ""
 
-#: elementor/elements/posts.php:351
-msgid "Post Title"
+#: elementor/includes/icons.php:96
+msgid "Icons Theme"
 msgstr ""
 
-#: elementor/elements/posts.php:362
-msgid "Color Title"
+#: elementor/includes/icons.php:2124
+msgid "Line Awesome"
 msgstr ""
 
-#: elementor/elements/posts.php:375
-msgid "Color Title Hover"
+#: elementor/includes/overrides.php:47
+#: elementor/includes/overrides.php:165
+msgid "Lenxel Style Settings"
 msgstr ""
 
-#: elementor/elements/posts.php:414
-msgid "Post Description"
+#: elementor/includes/overrides.php:55
+#: elementor/includes/overrides.php:172
+msgid "Style Available"
 msgstr ""
 
-#: elementor/elements/brand.php:43
-msgid "LNX Brand"
+#: elementor/includes/overrides.php:58
+#: elementor/includes/overrides.php:95
+#: elementor/includes/overrides.php:175
+msgid "-- None --"
 msgstr ""
 
-#: elementor/elements/teams.php:21
-msgid "LNX Teams"
+#: elementor/includes/overrides.php:59
+msgid "Background Overflow Left"
 msgstr ""
 
-#: elementor/elements/teams.php:72
-msgid "Teams Query"
+#: elementor/includes/overrides.php:60
+msgid "Background Overflow Right"
 msgstr ""
 
-#: elementor/elements/teams.php:152
-msgid "LNX Team Style"
+#: elementor/includes/overrides.php:75
+msgid "Lenxel Extra Settings Row for Header Builder"
 msgstr ""
 
-#: elementor/elements/teams.php:170
-msgid "Show Skills"
+#: elementor/includes/overrides.php:84
+msgid "Sticky Row Settings (Use only for row in header)"
 msgstr ""
 
-#: elementor/elements/teams.php:289
-msgid "Social"
+#: elementor/includes/overrides.php:92
+msgid "Sticky Menu Row"
 msgstr ""
 
-#: elementor/elements/teams.php:297
-msgid "Social Size"
+#: elementor/includes/overrides.php:96
+msgid "Sticky Menu"
 msgstr ""
 
-#: elementor/elements/teams.php:317
-msgid "Social Color"
+#: elementor/includes/overrides.php:107
+msgid "Sticky Background Color"
 msgstr ""
 
-#: elementor/elements/teams.php:329
-msgid "Social Hover Color"
+#: elementor/includes/overrides.php:120
+msgid "Sticky Text Color"
 msgstr ""
 
-#: elementor/elements/teams.php:343
-msgid "Team Styling"
+#: elementor/includes/overrides.php:133
+msgid "Sticky Link Menu Color"
 msgstr ""
 
-#: elementor/elements/teams.php:350
-msgid "Team Padding Spacing"
+#: elementor/includes/overrides.php:146
+msgid "Sticky Link Menu Hover Color"
 msgstr ""
 
-#: elementor/elements/teams.php:380
-msgid "Background Name/Job Color"
+#: elementor/includes/overrides.php:176
+msgid "Background White Full To Left and Border Theme"
 msgstr ""
 
-#: elementor/elements/teams.php:391
-msgid "General Background Color"
+#: elementor/includes/overrides.php:177
+msgid "Background Theme Full To Right"
 msgstr ""
 
-#: add-ons/comment/backend.php:15
-msgid "Review"
+#: elementor/includes/overrides.php:191
+#: elementor/includes/overrides.php:206
+#: elementor/includes/overrides.php:232
+msgid "-- Default --"
 msgstr ""
 
-#: add-ons/comment/frontend.php:123
-msgid "You can't add a star rating to your own product."
+#: elementor/includes/overrides.php:192
+msgid "Background Color Theme"
 msgstr ""
 
-#: add-ons/form-ajax/ajax-forget-pwd.php:71
-#, php-format
-msgid "[%s] Password Reset"
+#: elementor/includes/overrides.php:193
+msgid "Background Color Theme Second"
 msgstr ""
 
-#: redux/redux-framework/inc/classes/class-redux-rest-api-builder.php:68
-#: redux/redux-framework/inc/classes/class-redux-rest-api-builder.php:83
-msgid "The field type"
+#: elementor/includes/overrides.php:202
+msgid "Background Effect"
 msgstr ""
 
-#: redux/redux-framework/inc/classes/class-redux-args.php:134
-msgid "Regular 400"
+#: elementor/includes/overrides.php:207
+msgid "Particles"
 msgstr ""
 
-#: redux/redux-framework/inc/classes/class-redux-args.php:138
-msgid "Regular 400 Italic"
+#: elementor/includes/overrides.php:221
+msgid "LNX Theme Settings"
 msgstr ""
 
-#: redux/redux-framework/inc/classes/class-redux-args.php:142
-msgid "Bold 700"
+#: elementor/init.php:82
+msgid "Lenxel Elements"
 msgstr ""
 
-#: redux/redux-framework/inc/classes/class-redux-args.php:146
-msgid "Bold 700 Italic"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-args.php:265
-#, php-format
-msgid ""
-"Enjoyed %1$s? Please leave us a %2$s rating. We really appreciate your "
-"support!"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-args.php:266
-#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:317
-#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:502
-msgid "Redux"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-field.php:37
-msgid "Field ID"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-field.php:39
-msgid "Subtitle"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-field.php:41
-msgid "Class"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-field.php:42
-msgid "Compiler"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-field.php:43
-msgid "Default"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-field.php:44
-msgid "Disabled"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-field.php:45
-msgid "Hint"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-field.php:46
-msgid "Permissions"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-field.php:47
-msgid "Required"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:136
-msgid "Security check failed."
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:251
-msgid "Loading..."
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:280
-#, php-format
-msgid ""
-"Register <strong>%1$s</strong> to enable automatic Google Font updates "
-"service. Plus unlock all free block templates in the Redux template library."
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:285
-msgid "learn more"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:292
-msgid "Register Now"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:293
-msgid "No thanks"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:531
-msgid ""
-"<strong>Redux is activated!</strong> Each site on your network must be "
-"connected individually by an admin on that site."
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-connection-banner.php:553
-#, php-format
-msgid ""
-"By clicking the <strong>Register</strong> button, you agree to our <a "
-"href=\"%1$s\" target=\"_blank\">terms of service</a>, to create an account, "
-"and to share details of your usage metrics with Redux.io."
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:99
-#, php-format
-msgid "%s years"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:101
-msgid "a year"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:108
-#, php-format
-msgid "%s weeks"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:110
-msgid "a week"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:117
-#, php-format
-msgid "%s days"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:119
-msgid "a day"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:126
-#, php-format
-msgid "%s hours"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:128
-msgid "an hour"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:135
-#, php-format
-msgid "%s minutes"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:137
-msgid "a minute"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:144
-#, php-format
-msgid "%s seconds"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-user-feedback.php:146
-msgid "a second"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:167
-msgid "Gutenberg is currently disabled!"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:175
-msgid "Hmm, it seems something else is disabling Gutenberg..."
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:178
-msgid "Your theme author has disabled Gutenberg!"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:181
-msgid "Looks like something has disabled Gutenberg?"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:186
-#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:192
-msgid "Enable Gutenberg"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:190
-msgid "Your theme"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:210
-msgid "Disable Plugin"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-enable-gutenberg.php:213
-msgid "Disable Plugins"
-msgstr ""
-
-#: redux/redux-framework/inc/classes/class-redux-wordpress-data.php:358
-msgid "[unassigned]"
-msgstr ""
-
-#: redux/redux-framework/inc/welcome/views/support.php:46
-#, php-format
-msgid ""
-"This will provide to your developer all the information they may need to "
-"remedy your issue. This action WILL send information securely to a remote "
-"server. To see the type of information sent, please look at the  <a "
-"href=\"%s\">Health Check</a> tab."
-msgstr ""
-
-#: redux/redux-framework/inc/welcome/views/support.php:134
-#, php-format
-msgid ""
-"Should the developer not be responsive, read the <a href=\"%s\" "
-"target=\"_blank\">following article</a> before asking for support from us "
-"directly."
-msgstr ""
-
-#: redux/redux-framework/inc/welcome/views/health-report.php:908
-#, php-format
-msgid ""
-"If you are modifying Redux Framework on a parent theme that you did not "
-"build personally we recommend using a child theme. See: <a href=\"%s\" "
-"target=\"_blank\">How to create a child theme</a>"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/wbc_importer/field_wbc_importer.php:114
-msgid "Import Demo"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/radium-importer.php:256
-msgid "Theme options Import file could not be found. Please try again."
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/radium-importer.php:331
-msgid "Widget Import file could not be found. Please try again."
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/radium-importer.php:405
-msgid "Sidebar does not exist in theme (using Inactive)"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/radium-importer.php:427
-msgid "Site does not support widget"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/radium-importer.php:450
-msgid "Widget already exists"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/radium-importer.php:499
-msgid "Imported"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/radium-importer.php:502
-msgid "Imported to Inactive"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/radium-importer.php:509
-msgid "No Title"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:134
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:143
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:194
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:198
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:207
-msgid "Sorry, there has been an error."
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:135
-msgid "The file does not exist, please try again."
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:178
-msgid "All done."
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:178
-msgid "Have fun!"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:179
-msgid "Remember to update the passwords and roles of imported users."
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:199
-#, php-format
-msgid ""
-"The export file could not be found at <code>%s</code>. It is likely that "
-"this was caused by a permissions problem."
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:215
-#, php-format
-msgid ""
-"This WXR file (version %s) may not be supported by this version of the "
-"importer. Please consider updating."
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:240
-#, php-format
-msgid ""
-"Failed to import author %s. Their posts will be attributed to the current "
-"user."
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:266
-msgid "Assign Authors"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:267
-msgid ""
-"To make it simpler for you to edit and save the imported content, you may "
-"want to reassign the author of the imported item to an existing user of this "
-"site, such as your primary administrator account."
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:269
-#, php-format
-msgid ""
-"If a new user is created by WordPress, a new password will be randomly "
-"generated and the new user&#8217;s role will be set as %s. Manually changing "
-"the new user&#8217;s details will be necessary."
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:279
-msgid "Import Attachments"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:282
-msgid "Download and import file attachments"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:299
-msgid "Import author:"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:311
-msgid "or create new user with login name:"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:314
-msgid "as a new user:"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:324
-msgid "assign posts to an existing user:"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:326
-msgid "or assign posts to an existing user:"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:334
-msgid "- Select -"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:388
-#, php-format
-msgid ""
-"Failed to create new user for %s. Their posts will be attributed to the "
-"current user."
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:440
-#, php-format
-msgid "Failed to import category %s"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:485
-#, php-format
-msgid "Failed to import post tag %s"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:540
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:766
-#, php-format
-msgid "Failed to import %s %s"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:633
-#, php-format
-msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:670
-#, php-format
-msgid "%s &#8220;%s&#8221; already exists."
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:732
-#, php-format
-msgid "Failed to import %s &#8220;%s&#8221;"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:906
-msgid "Menu item skipped due to missing menu slug"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:913
-#, php-format
-msgid "Menu item skipped due to invalid menu slug: %s"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:976
-msgid "Fetching attachments is not enabled"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:989
-msgid "Invalid file type"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1028
-msgid "Could not create temporary file."
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1047
-#, php-format
-msgid "Request failed due to an error: %1$s (%2$s)"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1063
-#, php-format
-msgid "Remote server returned the following unexpected result: %1$s (%2$s)"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1075
-msgid "Remote server did not respond"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1082
-msgid "Zero size file downloaded"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1087
-msgid "Downloaded file has incorrect size"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1093
-#, php-format
-msgid "Remote file is too large, limit is %s"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1125
-msgid "Sorry, this file type is not permitted for security reasons."
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1140
-msgid "The uploaded file could not be moved"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1252
-msgid "Import WordPress"
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1259
-#, php-format
-msgid ""
-"A new version of this importer is available. Please update to version %s to "
-"ensure compatibility with newer export files."
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1274
-msgid ""
-"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
-"the posts, pages, comments, custom fields, categories, and tags into this "
-"site."
-msgstr ""
+#: elementor/templates/course-banner-group/item-style-3.php:50
+msgid "%d Course"
+msgid_plural "%d Courses"
+msgstr[0] ""
+msgstr[1] ""
 
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/wordpress-importer.php:1275
-msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
-msgstr ""
-
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/parsers.php:42
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/parsers.php:72
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/parsers.php:80
-msgid "There was an error when reading this WXR file"
-msgstr ""
+#: elementor/templates/course-banner.php:37
+msgid "%d Listing"
+msgid_plural "%d Courses"
+msgstr[0] ""
+msgstr[1] ""
 
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/parsers.php:43
-msgid ""
-"Details are shown above. The importer will now try again with a different "
-"parser..."
+#: elementor/templates/course-filter-form.php:91
+msgid "Search"
 msgstr ""
 
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/parsers.php:84
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/parsers.php:89
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/parsers.php:279
-#: redux/redux-framework/inc/extensions/wbc_importer/inc/importer/parsers.php:468
-msgid ""
-"This does not appear to be a WXR file, missing/invalid WXR version number"
+#: elementor/templates/course-filter/course.php:28
+msgid "Show Sidebar"
 msgstr ""
 
-#: redux/redux-framework/inc/extensions/wbc_importer/extension_wbc_importer.php:264
-#: redux/redux-framework/inc/extensions/wbc_importer/extension_wbc_importer.php:266
-msgid "Demo Importer"
+#: elementor/templates/course-filter/filters.php:32
+msgid "Search Keyword"
 msgstr ""
 
-#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:48
-#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:235
-#, php-format
-msgid "New %s"
+#: elementor/templates/course-filter/filters.php:44
+msgid "Category"
 msgstr ""
 
-#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:154
-#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:290
-msgid "URL"
+#: elementor/templates/course-filter/filters.php:137
+msgid "Clear All Filter"
 msgstr ""
 
-#: redux/redux-framework/inc/fields/slides/class-redux-slides.php:365
-#, php-format
-msgid "Add %s"
+#: elementor/templates/portfolio/grid.php:31
+msgid "All"
 msgstr ""
 
-#: redux/redux-framework/inc/fields/text/class-redux-text.php:27
-msgid ""
-"The Text field accepts any form of text and optionally validates the text "
-"before saving the value."
+#: elementor/templates/rev-slider.php:5
+msgid "No slides found, please choose slider"
 msgstr ""
 
-#: redux/redux-framework/inc/fields/text/class-redux-text.php:29
-msgid "Display a qTip div when active on the text field."
+#: posttypes/footer.php:74
+#: posttypes/header.php:71
+msgid "Default Option Theme"
 msgstr ""
 
-#: redux/redux-framework/inc/fields/text/class-redux-text.php:30
-msgid "Placeholder text."
+#: posttypes/footer.php:75
+msgid "Disable Footer"
 msgstr ""
 
-#: widgets/recent_posts.php:23
-msgid "Your site&#8217;s most recent Posts."
+#: posttypes/footer.php:76
+msgid "Default Widget Footer"
 msgstr ""
 
-#: widgets/recent_posts.php:26
-msgid "LNX Recent Posts"
+#: templates/sharebox-post.php:13
+msgid "Share This Post: "
 msgstr ""
 
-#: widgets/recent_posts.php:109
-msgid "(no title)"
+#: widgets/recent_posts.php:44
+msgid "Recent Posts"
 msgstr ""
 
-#: widgets/recent_posts.php:172
-msgid "Title:"
+#: widgets/recent_posts.php:127
+msgid "0 Comments"
 msgstr ""
 
-#: widgets/recent_posts.php:177
-msgid "Number of posts to show:"
+#: widgets/recent_posts.php:127
+msgid "1 Comment"
 msgstr ""
 
-#: widgets/recent_posts.php:183
-msgid "Display post date?"
+#: widgets/recent_posts.php:127
+msgid "% Comments"
 msgstr ""

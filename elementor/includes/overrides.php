@@ -218,7 +218,7 @@ class LNX_Elementor_Override{
       $obj->start_controls_section(
          'lnx_section_icon_box',
          array(
-            'label' => esc_html__( 'Lnx Theme Settings', 'lenxel-theme-support' ),
+            'label' => esc_html__( 'LNX Theme Settings', 'lenxel-theme-support' ),
             'tab'   => Controls_Manager::TAB_CONTENT,
          )
       );

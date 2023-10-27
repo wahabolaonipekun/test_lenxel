@@ -1,13 +1,12 @@
 === Lenxel theme support for Lenxel LMS ===
 Tags: LMS, Header builder, Footer builder, Teams, Portfolios, Lenxel Theme settings
-Requires at least Wordpress: 4.5
-Tested up to Wordpress: 6.2.2
+Requires at least Wordpress: 5.0
+Tested up to Wordpress: 6.3
 Requires PHP: 7.1 or above
 Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Version: 1.0.0
-
 
 Lenxel theme support plugin is an extension of the Lenxel theme template that features Team post-type, Portfolio post-type, Header builder, Footer builder, and Lenxel Theme settings. 
 

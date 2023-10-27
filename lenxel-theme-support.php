@@ -2,11 +2,13 @@
 
 /**
  * Plugin Name: Lenxel Theme Support
- * Description: Open Setting, Post Type, Shortcode ... for theme 
+ * Description: Open Setting, Post Type, Shortcode ... for theme
+ * Plugin URI: https://lenxel.ogunlabs.com 
  * Version: 1.0.0
- * Author: Lenxelthemes Team
+ * Author: Dev Teams on Demand
+ * Author URI: https://ogunlabs.com/
  * Text Domain: lenxel-theme-support
- * Copyright: © 2023 Ogunlabs
+ * Copyright: © 2023 Dev Teams on Demand
  */
 
 define('LENXEL_PLUGIN_URL', plugin_dir_url(__FILE__));

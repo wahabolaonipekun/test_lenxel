@@ -62,7 +62,7 @@ if ( !class_exists( 'ReduxFramework_extension_wbc_importer' ) ) {
             if ( empty( $this->extension_dir ) ) {
                 $this->extension_dir = trailingslashit( str_replace( '\\', '/', dirname( __FILE__ ) ) );
                 $this->extension_url = site_url( str_replace( trailingslashit( str_replace( '\\', '/', ABSPATH ) ), '', $this->extension_dir ) );
-                $this->demo_data_dir = apply_filters( "wbc_importer_dir_path", $this->extension_dir . 'demo-data/' );
+                $this->demo_data_dir = apply_filters( "lnx_importer_dir_path", $this->extension_dir . 'demo-data/' );
             }
 
             //Delete saved options of imported demos, for dev/testing purpose
@@ -75,18 +75,18 @@ if ( !class_exists( 'ReduxFramework_extension_wbc_importer' ) ) {
             self::$instance = $this;
 
             add_filter( 'redux/' . $this->parent->args['opt_name_triger'] . '/field/class/' . $this->field_name, array( &$this,
-                    'overload_field_path_lenxel'
-                ) );
+                    'overload_field_path_lenxels'
+        ) );
 
-            add_action( 'wp_ajax_redux_wbc_importer', array(
+            add_action( 'wp_ajax_redux_wbc_importers', array(
                     $this,
-                    'ajax_importer'
-                ) );
+                    'ajax_importers'
+            ) );
 
             add_filter( 'redux/'.$this->parent->args['opt_name_triger'].'/field/wbc_importer_files', array(
                     $this,
-                    'addImportFilesLenxel'
-                ) );
+                    'addImportFilesLenxels'
+            ) );
 
             //Adds Importer section to panel
             $this->add_importer_section();
@@ -101,8 +101,7 @@ if ( !class_exists( 'ReduxFramework_extension_wbc_importer' ) ) {
          *
          * @return array list of files for demos
          */
-        public function demoFiles() {
-
+        public function demoFiles() { 
             $this->filesystem = $this->parent->filesystem->execute( 'object' );
             if(function_exists("dirlist")){
                 $dir_array = $this->filesystem->dirlist( $this->demo_data_dir, false, true );
@@ -204,7 +203,7 @@ if ( !class_exists( 'ReduxFramework_extension_wbc_importer' ) ) {
 
         }
 
-        public function addImportFilesLenxel( $wbc_import_files ) {
+        public function addImportFilesLenxels( $wbc_import_files ) {
 
             if ( !is_array( $wbc_import_files ) || empty( $wbc_import_files ) ) {
                 $wbc_import_files = array();
@@ -215,7 +214,7 @@ if ( !class_exists( 'ReduxFramework_extension_wbc_importer' ) ) {
             return $wbc_import_files;
         }
 
-        public function ajax_importer() {
+        public function ajax_importers() {
             if ( !isset( $_REQUEST['nonce'] ) || !wp_verify_nonce( $_REQUEST['nonce'], "redux_{$this->parent->args['opt_name_triger']}_wbc_importer" ) ) {
                 die( 0 );
             }
@@ -249,7 +248,7 @@ if ( !class_exists( 'ReduxFramework_extension_wbc_importer' ) ) {
         }
 
         // Forces the use of the embeded field path vs what the core typically would use
-        public function overload_field_path_lenxel( $field ) {
+        public function overload_field_path_lenxels( $field ) {
             return dirname( __FILE__ ) . '/' . $this->field_name . '/field_' . $this->field_name . '.php';
         }
 
@@ -279,5 +278,5 @@ if ( !class_exists( 'ReduxFramework_extension_wbc_importer' ) ) {
             );
         }
 
-    } // class
-} // if
+    } 
+} 

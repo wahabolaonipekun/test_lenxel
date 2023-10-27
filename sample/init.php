@@ -2,7 +2,7 @@
 function lenxel_theme_support_path_demo_content(){
 	return (__DIR__.'/demo-data/');
 }
-add_filter('wbc_importer_dir_path', 'lenxel_theme_support_path_demo_content');
+add_filter('lnx_importer_dir_path', 'lenxel_theme_support_path_demo_content');
 
 //Way to set menu, import revolution slider, and set home page.
 function lenxel_theme_support_import_sample( $demo_active_import , $demo_directory_path ) {
