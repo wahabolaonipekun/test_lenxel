@@ -139,37 +139,16 @@ if ( ! class_exists( 'Redux_ThemeCheck', false ) ) {
 		}
 
 		/**
-		 * Disable Theme-Check checks that aren't relevant for ThemeForest themes
+		 * 
 		 *
 		 * @since    1.0.0
 		 */
 		public function disable_checks() {
 			global $themechecks;
-
-			/** $checks_to_disable = array(
-			 *    'IncludeCheck',
-			 *    'I18NCheck',
-			 *    'AdminMenu',
-			 *    'Bad_Checks',
-			 *    'MalwareCheck',
-			 *    'Theme_Support',
-			 *    'CustomCheck',
-			 *    'EditorStyleCheck',
-			 *    'IframeCheck',
-			 * );
-			 * foreach ( $themechecks as $keyindex => $check ) {
-			 *    if ( $check instanceof themecheck ) {
-			 *        $check_class = get_class( $check );
-			 *        if ( in_array( $check_class, $checks_to_disable ) ) {
-			 *            unset( $themechecks[$keyindex] );
-			 *        }
-			 *    }
-			 * }
-			 */
 		}
 
 		/**
-		 * Disable Theme-Check checks that aren't relevant for ThemeForest themes
+		 * 
 		 *
 		 * @since    1.0.0
 		 */

@@ -39,8 +39,6 @@ Manage active/enrolled(continue Learning) courses with different style option us
 
 == Later Features Pro ==
 
-* SEO & Marketing Ready
-
 * Course Coupon
 
 * Live Chat Support Inside the Plugin
@@ -61,24 +59,16 @@ After activating the plugin, this will setup header page builder, footer page bu
 
 *   __Seamless integration__ into the Lenxel theme template. Manages custom post-type
 *  __Manages Teams__
+* __Manage Sign-in template page__
 *  __Manages Portfolio__
 * __Header and footer page builder__
 * __ Manage course category with different style option using elementor element__
 * __Manage active/enrolled(continue Learning) courses with different style option using elementor element__
-* __Manage Sign-in template page__
+
 
 
 
 == Installation ==
-
-= Automatic Installation =
-* 	Login to your WordPress Admin area
-* 	Go to "Plugins > Add New" from the left-hand menu
-* 	In the search box, type __Lenxel-theme-support__
-*	From the search result you will see __Lenxel Theme Support__ click on __Install Now__ to install the plugin
-*	A pop-up window will ask you to confirm your wish to install the Plugin.
-*	After installation, activate the plugin.
-* 	Open the Header builder, Footer builder, Teams, and Portfolio will have been added to the left-hand menu wp-admin dashboard list.
 
 = Automatic Installation from themes=
 * 	Login to your WordPress Admin area
@@ -91,10 +81,10 @@ After activating the plugin, this will setup header page builder, footer page bu
 
 
 = Manual Installation =
-1. 	Download the plugin zip file
-2. 	Log-in to your WordPress Admin. Click on "Plugins > Add New" from the left-hand menu.
-3.  Click on the "Upload" option, then "Choose File" to select the zip file from your computer. Once selected, press "OK" and "Install Now" button.
-4.  Activate the plugin.
+1.  The plugin is included in the downloaded file from market place.
+2.  Log in to your WordPress admin dashboard. From the left-hand menu, navigate to "Plugins" and select "Add New."
+3.  Click on the "Upload" option, then choose the file by clicking the "Choose File" button. Once you've selected the ZIP file from your computer, confirm your choice by clicking "OK" and proceed by clicking "Install Now."
+4.  To activate the plugin, simply click the "Activate" button.
 5. 	Open the Header builder, Footer builder, Teams, and Portfolio will have been added to the left-hand menu wp-admin dashboard list. 
 
 == Setup Woocommerce ==
@@ -114,13 +104,13 @@ After activating the plugin, this will setup header page builder, footer page bu
 11. Import / Export
 12. Go ahead to take a test.
 
-= Configure the plugin =
-1.  Google Map API key
+= Plugin Configuration =
+1.  Setting up your Google Map API key
 
 == Frequently Asked Questions ==
 
-= What Do I Need To Use The Plugin =
+= Prerequisites for Using the Plugin =
 
-1.	You need to have the WooCommerce plugin installed and activated on your WordPress site.
+1.	You must install and activate the WooCommerce plugin on your WordPress website.
 2.  You need to install Tutor plugin to manage curriculum, quiz, and curriculum assignment
 3.	You need to install Lenxel theme template
